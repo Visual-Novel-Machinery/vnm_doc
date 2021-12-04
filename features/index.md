@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Introduction
+title: Features
 nav_order: 3
 has_children: true
 ---
