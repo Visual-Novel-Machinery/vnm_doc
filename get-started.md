@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: default
 title: "Get Started"
-permalink: /get-started/
+nav_order: 2
 ---
 
 ## Get started
