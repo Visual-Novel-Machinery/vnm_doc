@@ -1,7 +1,8 @@
 ---
 layout: default
-title: "Get Started"
-nav_order: 2
+title: Introduction
+parent: Get Started
+nav_order: 1
 ---
 
 ## Get started
