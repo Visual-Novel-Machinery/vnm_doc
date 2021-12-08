@@ -3,7 +3,7 @@ layout: default
 title: Setting up Player Interaction
 parent: Project Setup
 grand_parent: Get Started
-nav_order: 5
+nav_order: 7
 ---
 
 # Setting up Player Interaction

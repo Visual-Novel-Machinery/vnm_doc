@@ -3,7 +3,7 @@ layout: default
 title: Setting up the Memory System
 parent: Project Setup
 grand_parent: Get Started
-nav_order: 6
+nav_order: 8
 ---
 
 # Setting up the Memory System
