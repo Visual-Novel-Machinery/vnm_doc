@@ -18,3 +18,7 @@ nav_order: 5
     ![Nodes to allow the player to navigate to the next elements in the dialog]({{ site.baseurl }}/assets/images/PlayerController/Next_Dialog_Nodes.png)
 5. Open the blueprint BP_InGameGameMode.
     1. Set the Default Player Controller Class to BP_IngamePlayerController.
+
+Now the player should be able to navigate through the visual novel if the key mapping defined above.
+
+The final step is [setting up the memory system]({{ site.baseurl }}{% link get-started/project-setup/setup-memory-system.md %}).

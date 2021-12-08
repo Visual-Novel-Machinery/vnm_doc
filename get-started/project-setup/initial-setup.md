@@ -16,8 +16,3 @@ nav_order: 1
     - You don't need to use the proposed structure mentioned above, the rest of the guide will however use it.
 
 You should now have the absolute base setup for the project. Next step is to setup all the data tables used, as Visual Novel Machinery is setup in a data-driven way. Let's move on to [setting up the data tables]({{ site.baseurl }}{% link get-started/project-setup/setup-data-tables.md %}).
-
-## Additional setup
-If you intend to use other features like characters/CGs/scene backgrounds, check the basic instruction in the respective categories.
-
-You can now move on to the introduction about [dialogs]({{ site.baseurl }}{% link features/Dialogs.md %}).
