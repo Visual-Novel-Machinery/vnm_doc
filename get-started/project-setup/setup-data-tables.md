@@ -12,12 +12,15 @@ nav_order: 2
     - DialogDefinition (Named DT_DialogDefinitions for future reference)
     - DialogImageDefinition (Named DT_CgDefinitions for future reference)
     - DialogImageDefinition (Named DT_SceneBackgroundDefinitions for future reference)
+    ![Table Definition Picker]({{ site.baseurl }}/assets/images/DataTableSetup/TableDefinitionPicker.png)
+    ![Created Data Tables]({{ site.baseurl }}/assets/images/DataTableSetup/CreatedDataTables.png)
 2. Go to the project settings and navigate to Visual Novel Machinery in the plugins category
 3. Set the following settings
     - CharacterDefinitonsTable to DT_CharacterDefinitions
     - DialogDefinitonsTable to DT_DialogDefinitions
     - CgDefinitonsTable to DT_CgDefinitions
     - SceneBackgroundDefinitonsTable to DT_SceneBackgroundDefinitions
+    ![Data Table Project Settings]({{ site.baseurl }}/assets/images/DataTableSetup/DataTableProjectSettings.png)
 
 ## DT_CharacterDefinitions
 This data table will hold all the information that the plugin needs about every single character that will appear in the game. This could be the name of the character, or also the visual appearance of the character. More details on characters can be found [here]({{ site.baseurl }}{% link features/characters/index.md %}).
