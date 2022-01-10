@@ -1,3 +1,15 @@
 .search-input {
     color: #e6e1e8;
 }
+
+@media(min-width: 66.5rem)
+{
+    .main {
+        max-width: 100%;
+        margin-left: 264px;
+    }
+    
+    .side-bar {
+        width: 264px;
+    }
+}
