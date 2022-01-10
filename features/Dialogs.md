@@ -24,7 +24,7 @@ Between the start and the end, you can add all of the nodes.
 ## Basics - Linear Dialog
 The most basic node that you will always need with a Dialog System is a node to display text. For this the Visual Novel Machinery offers the [Dialog Text Node]({{ site.baseurl }}{% link nodes-reference/dialog-text.md %}). In its most basic form, this node will display a text on screen in the dialog box. The text specified in the node is of data type Text, meaning they can be localized.
 
-However, this is most likely not enough. The node can also display the name of the character talking. To have characters available for selection, you'll need to add a character to the Character Definitions Data Table that is set in the project settings. In there you can specify the display text and color of the text. the other settings are for now not important to us. For more details on those, check the [character feature documentation]({{ site.baseurl }}{% link features/characters/index.md %}).
+However, this is most likely not enough. The node can also display the name of the character talking. To have characters available for selection, you'll need to add a character to the Character Definitions Data Table that is set in the project settings. In there you can specify the display text and color of the text. the other settings are for now not important to us. For more details on those, check the [character feature documentation]({{ site.baseurl }}{% link features/characters.md %}).
 
 Now add multiple [Dialog Text Node]({{ site.baseurl }}{% link nodes-reference/dialog-text.md %}) in sequence, and you have created a simple short linear dialog using Visual Novel Machinery.
 

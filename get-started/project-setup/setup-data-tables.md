@@ -26,7 +26,7 @@ nav_order: 2
     ![Data Table Project Settings]({{ site.baseurl }}/assets/images/DataTableSetup/DataTableProjectSettings.png)
 
 ## DT_CharacterDefinitions
-This data table will hold all the information that the plugin needs about every single character that will appear in the game. This could be the name of the character, or also the visual appearance of the character. More details on characters can be found [here]({{ site.baseurl }}{% link features/characters/index.md %}).
+This data table will hold all the information that the plugin needs about every single character that will appear in the game. This could be the name of the character, or also the visual appearance of the character. More details on characters can be found [here]({{ site.baseurl }}{% link features/characters.md %}).
 
 ## DT_DialogDefinitions
 This data table will hold all the information about the scene. This includes the actual dialog object, the name of the scene, and much more. More details on dialogs can be found [here]({{ site.baseurl }}{% link features/Dialogs.md %}).
