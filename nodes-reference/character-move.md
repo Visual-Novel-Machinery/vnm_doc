@@ -9,6 +9,23 @@ parent: Nodes Reference
 
 ## Pins
 
+### Input
+
+| Name | Type | Description |
+| --- | --- | --- |
+| Execution Line In | Execution | Execution Line Input |
+
+### Output
+
+| Name | Type | Description |
+| --- | --- | --- |
+| Execution Line Out | Execution | Execution Line Output |
+
 ## On-Node Properties
+
+| Name | Description |
+| --- | --- |
+| Character | The Id of the character to be moved |
+| Character Position | The new position of the character (LEFT/CENTER/RIGHT/TRUECENTER) |
 
 ## Additional Properties
