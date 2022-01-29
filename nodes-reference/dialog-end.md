@@ -26,5 +26,3 @@ parent: Nodes Reference
 | Name | Description |
 | --- | --- |
 | Next Dialog | The next dialog to start. If set to None, the game will return to the Main Menu level specified in the Project Settings |
-
-## Additional Properties

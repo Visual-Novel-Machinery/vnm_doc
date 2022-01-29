@@ -28,5 +28,3 @@ parent: Nodes Reference
 | Scene Background | The Id of the Scene Background to which to add the layer |
 | Layer | The Id of the layer that will be added/modified |
 | Image | The Id of the image that will be displayed in the layer |
-
-## Additional Properties

@@ -27,5 +27,3 @@ parent: Nodes Reference
 | --- | --- |
 | Scene Background | The Id of the Scene Background to which to remove the layer from |
 | Layer | The Id of the layer that will be removed |
-
-## Additional Properties

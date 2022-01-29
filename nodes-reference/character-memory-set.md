@@ -28,5 +28,3 @@ parent: Nodes Reference
 | --- | --- |
 | Character | The Id of the character from whom to override the memory value |
 | Memory | The Id of the memory which value should be overriden |
-
-## Additional Properties

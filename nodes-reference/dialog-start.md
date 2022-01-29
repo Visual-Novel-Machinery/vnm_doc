@@ -20,11 +20,3 @@ parent: Nodes Reference
 | Name | Type | Description |
 | --- | --- | --- |
 | Execution Line Out | Execution | Execution Line Output |
-
-## On-Node Properties
-
-| Name | Description |
-| --- | --- |
-| Cg | The Id of the CG to which to add the layer |
-
-## Additional Properties

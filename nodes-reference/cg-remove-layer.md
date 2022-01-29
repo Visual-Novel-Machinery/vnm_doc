@@ -27,5 +27,3 @@ parent: Nodes Reference
 | --- | --- |
 | Cg | The Id of the CG to which to remove the layer from |
 | Layer | The Id of the layer that will be removed |
-
-## Additional Properties

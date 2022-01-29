@@ -20,5 +20,3 @@ parent: Nodes Reference
 | Name | Type | Description |
 | --- | --- | --- |
 | Execution Line Out | Execution | Execution Line Output |
-
-## Additional Properties
