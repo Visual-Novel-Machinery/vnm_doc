@@ -15,4 +15,4 @@ Visual Novel Machinery contains two nodes for working with CGs. These are [CG Sh
 
 ![CG nodes in action]({{ site.baseurl }}/assets/images/CG/CGNodes.png)
 
-There are also nodes for using image layering, but more about in the [CG image layering feature documentation]({{ site.baseurl }}{% link features/layering-system/layering-cgs.md %}).
+There are also nodes for using image layering, but more about in the [CG image layering feature documentation]({{ site.baseurl }}{% link features/layering-system.md %}).

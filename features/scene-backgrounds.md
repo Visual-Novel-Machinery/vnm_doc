@@ -15,4 +15,4 @@ Visual Novel Machinery contains two nodes for working with scene backgrounds. Th
 
 ![Scene background nodes in action]({{ site.baseurl }}/assets/images/SceneBackgrounds/SceneBackgroundNodes.png)
 
-There are also nodes for using image layering, but more about in the [scene background image layering feature documentation]({{ site.baseurl }}{% link features/layering-system/layering-scene-backgrounds.md %}).
+There are also nodes for using image layering, but more about in the [scene background image layering feature documentation]({{ site.baseurl }}{% link features/layering-system.md %}).
