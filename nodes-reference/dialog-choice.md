@@ -5,7 +5,7 @@ parent: Nodes Reference
 ---
 # Dialog Choice
 
-## Visual
+![Dialog Choice Node Visual]({{ site.baseurl }}/assets/images/NodeReference/dialog-choice.png)
 
 ## Pins
 

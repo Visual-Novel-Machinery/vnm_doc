@@ -5,7 +5,7 @@ parent: Nodes Reference
 ---
 # Character Hide
 
-## Visual
+![Character Hide Node Visual]({{ site.baseurl }}/assets/images/NodeReference/character-hide.png)
 
 ## Pins
 

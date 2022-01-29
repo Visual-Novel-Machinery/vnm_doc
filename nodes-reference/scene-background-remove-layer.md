@@ -5,7 +5,7 @@ parent: Nodes Reference
 ---
 # Scene Background Remove Layer
 
-## Visual
+![Scene Background Remove Layer Node Visual]({{ site.baseurl }}/assets/images/NodeReference/scene-background-remove-layer.png)
 
 ## Pins
 

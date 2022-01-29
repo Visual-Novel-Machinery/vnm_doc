@@ -5,7 +5,7 @@ parent: Nodes Reference
 ---
 # Dialog Memory Set
 
-## Visual
+![Dialog Memory Set Node Visual]({{ site.baseurl }}/assets/images/NodeReference/dialog-memory-set.png)
 
 ## Pins
 

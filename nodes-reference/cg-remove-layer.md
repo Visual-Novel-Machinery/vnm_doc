@@ -5,7 +5,7 @@ parent: Nodes Reference
 ---
 # CG Remove Layer
 
-## Visual
+![CG Remove Layer Node Visual]({{ site.baseurl }}/assets/images/NodeReference/cg-remove-layer.png)
 
 ## Pins
 

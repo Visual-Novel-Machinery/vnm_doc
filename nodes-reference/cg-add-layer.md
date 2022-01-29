@@ -5,7 +5,7 @@ parent: Nodes Reference
 ---
 # CG Add Layer
 
-## Visual
+![CG Add Layer Node Visual]({{ site.baseurl }}/assets/images/NodeReference/cg-add-layer.png)
 
 ## Pins
 

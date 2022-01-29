@@ -5,7 +5,7 @@ parent: Nodes Reference
 ---
 # Character Remove Layer
 
-## Visual
+![Character Remove Layer Node Visual]({{ site.baseurl }}/assets/images/NodeReference/character-remove-layer.png)
 
 ## Pins
 

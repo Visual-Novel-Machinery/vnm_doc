@@ -5,7 +5,7 @@ parent: Nodes Reference
 ---
 # Character Add Layer
 
-## Visual
+![Character Add Layer Node Visual]({{ site.baseurl }}/assets/images/NodeReference/character-add-layer.png)
 
 ## Pins
 

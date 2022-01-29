@@ -5,7 +5,7 @@ parent: Nodes Reference
 ---
 # CG Show
 
-## Visual
+![CG Show Node Visual]({{ site.baseurl }}/assets/images/NodeReference/cg-show.png)
 
 ## Pins
 

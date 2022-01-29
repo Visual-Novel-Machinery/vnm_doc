@@ -5,7 +5,7 @@ parent: Nodes Reference
 ---
 # Dialog Text
 
-## Visual
+![Dialog Text Node Visual]({{ site.baseurl }}/assets/images/NodeReference/dialog-text.png)
 
 ## Pins
 

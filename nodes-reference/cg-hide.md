@@ -5,7 +5,7 @@ parent: Nodes Reference
 ---
 # CG Hide
 
-## Visual
+![CG Hide Node Visual]({{ site.baseurl }}/assets/images/NodeReference/cg-hide.png)
 
 ## Pins
 

@@ -5,7 +5,7 @@ parent: Nodes Reference
 ---
 # Character Memory Set
 
-## Visual
+![Character Memory Set Node Visual]({{ site.baseurl }}/assets/images/NodeReference/character-memory-Set.png)
 
 ## Pins
 

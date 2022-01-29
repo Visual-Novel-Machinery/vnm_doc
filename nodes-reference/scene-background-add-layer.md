@@ -5,7 +5,7 @@ parent: Nodes Reference
 ---
 # Scene Background Add Layer
 
-## Visual
+![Scene Background Add Layer Node Visual]({{ site.baseurl }}/assets/images/NodeReference/scene-background-add-layer.png)
 
 ## Pins
 

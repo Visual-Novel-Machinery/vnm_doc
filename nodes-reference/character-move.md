@@ -5,7 +5,7 @@ parent: Nodes Reference
 ---
 # Character Move
 
-## Visual
+![Character Move Node Visual]({{ site.baseurl }}/assets/images/NodeReference/character-move.png)
 
 ## Pins
 

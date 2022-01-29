@@ -5,7 +5,7 @@ parent: Nodes Reference
 ---
 # Scene Background Hide
 
-## Visual
+![Scene Background Hide Node Visual]({{ site.baseurl }}/assets/images/NodeReference/scene-background-hide.png)
 
 ## Pins
 

@@ -5,7 +5,7 @@ parent: Nodes Reference
 ---
 # Dialog End
 
-## Visual
+![Dialog End Node Visual]({{ site.baseurl }}/assets/images/NodeReference/dialog-end.png)
 
 ## Pins
 

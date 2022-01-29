@@ -5,7 +5,7 @@ parent: Nodes Reference
 ---
 # Character Show
 
-## Visual
+![Character Show Node Visual]({{ site.baseurl }}/assets/images/NodeReference/character-show.png)
 
 ## Pins
 

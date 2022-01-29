@@ -9,7 +9,7 @@ nav_order: 5
 No movement in a game can also be great, but sometimes an entrance of a character can be made even greater with some animations. For this the Visual Novel Machinery offers a few different options for animations for characters/CGs/scene backgrounds/the dialog box.
 
 ## Basics
-For this example we'll use the [CG Show Node]({{ site.baseurl }}{% link nodes-reference/cg-show.md %}), but it also applies to all other Show/Hide nodes and [Dialog Window Control Node]({{ site.baseurl }}{% link nodes-reference/dialog-window.md %}). If something transitions in or out, Visual Novel Machinery offers something called Transition Events. So set a transition event, click on the node and check the Details Panel for the Transition Event option. These animations need to be set up in the UI widgets. If you are using the Blank Project Template, then these are all already setup for you. You can always also modify them if you want. 
+For this example we'll use the [CG Show Node]({{ site.baseurl }}{% link nodes-reference/cg-show.md %}), but it also applies to all other Show/Hide nodes and [Dialog Window Control Node]({{ site.baseurl }}{% link nodes-reference/dialog-window-control.md %}). If something transitions in or out, Visual Novel Machinery offers something called Transition Events. So set a transition event, click on the node and check the Details Panel for the Transition Event option. These animations need to be set up in the UI widgets. If you are using the Blank Project Template, then these are all already setup for you. You can always also modify them if you want. 
 
 There are multiple events supported by the plugin which are:
 - Fade: Fades in/out from black within 0.5s
@@ -43,7 +43,7 @@ After selecting this, a Custom Transition Event Name Field will appear. In this 
 | [Scene Background Hide Node]({{ site.baseurl }}{% link nodes-reference/scene-background-hide.md %}) | BaseSceneBackgroundDisplayWidget | W_SceneBackgroundDisplayWidget |
 | [Character Show Node]({{ site.baseurl }}{% link nodes-reference/character-show.md %}) | BaseCharacterDisplayWidget | W_CharacterDisplayWidget |
 | [Character Hide Node]({{ site.baseurl }}{% link nodes-reference/character-hide.md %}) | BaseCharacterDisplayWidget | W_CharacterDisplayWidget |
-| [Dialog Window Control Node]({{ site.baseurl }}{% link nodes-reference/dialog-window.md %}) | BaseDialogBoxWidget | W_DialogBoxWidget |
+| [Dialog Window Control Node]({{ site.baseurl }}{% link nodes-reference/dialog-window-control.md %}) | BaseDialogBoxWidget | W_DialogBoxWidget |
 
 In the blueprint for the [CG Show Node]({{ site.baseurl }}{% link nodes-reference/cg-show.md %}), in this case W_CgDisplayWidget, make sure you have defined the animation. If you do not do so, the system will log an error.
 
