@@ -29,3 +29,7 @@ parent: Nodes Reference
 | Character Position | The new position of the character (LEFT/CENTER/RIGHT/TRUECENTER) |
 
 ## Additional Properties
+
+| Name | Type | Description |
+| --- | --- | --- |
+| Move With Animation | Boolean | If set to true then the character will slide to its new position instead of teleporting to it |

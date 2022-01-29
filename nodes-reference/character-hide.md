@@ -28,3 +28,9 @@ parent: Nodes Reference
 | Character | The Id of the character to hide |
 
 ## Additional Properties
+
+| Name | Type | Description |
+| --- | --- | --- |
+| Transition Event | Transition Event | How should the Character be hidden |
+| Custom Transition Event Name | FString | The name of the animation to use if Transition Event is set to Custom |
+| Dont Wait For Transition To Finish | Boolean | If set to true then the dialog will automatically continue, while the Character finishes its transition |
