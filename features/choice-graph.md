@@ -8,6 +8,8 @@ nav_order: 9
 # Choice Graph
 When you have a game with a lot of branches, you might want to show the player which branches they might have missed in the game. For this purpose Visual Novel Machinery offers a Choice Graph. It basically shows the player in a graph all choices in a specific dialog scene. To ensure that the player will not get spoilered too much the widget will only show the choice texts of choices the player has seen in the game. In the widget designer it will always display all choice texts.
 
+To use this feature make sure you click the "Build Choice Data" Button in the Dialog Blueprint Editor, to ensure that the data has been built for display later on.
+
 ## Setup
 1. Create a new widget and call it W_ChoiceWidget.
 2. Add a scroll box to the widget

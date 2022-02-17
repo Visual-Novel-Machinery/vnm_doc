@@ -12,6 +12,7 @@ Sometimes it is necessary for a character to remember something, or save a vaue 
 - Integer64
 - float
 - String
+- Byte (for saving Enums)
 
 These values can be get/set with their respective nodes. There are [Character Memory Get Node ]({{ site.baseurl }}{% link nodes-reference/character-memory-get.md %}) and [Character Memory Set Node ]({{ site.baseurl }}{% link nodes-reference/character-memory-set.md %}) for characters and [Dialog Memory Get Node ]({{ site.baseurl }}{% link nodes-reference/character-memory-get.md %}) and [Dialog Memory Set Node ]({{ site.baseurl }}{% link nodes-reference/character-memory-set.md %}) for dialogs. You can use these to access and modify the memory values for characters/dialogs. The node's value input/output pin will automatically adapt to the datatype of the selected memory when selecting it.
 
