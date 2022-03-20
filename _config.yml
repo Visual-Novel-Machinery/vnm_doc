@@ -34,7 +34,7 @@ search_enabled: true
 # Aux links for the upper right navigation
 aux_links:
   "Unreal Marketplace":
-    - "#"
+    - "https://www.unrealengine.com/marketplace/en-US/product/visual-novel-machinery"
   "Itch.io":
     - "https://al-fe.itch.io/visual-novel-machinery"
   "Gumroad":
