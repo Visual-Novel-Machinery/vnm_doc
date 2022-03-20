@@ -10,4 +10,4 @@ To get started check out the [Get Started]({{ site.baseurl }}{% link get-started
 
 ## Additional support
 
-If you need help you can either send an e-mail, or join the discord.
+If you need help you can join the official [Discord](https://discord.gg/GyHs7GwPWJ){:target="_blank"}.
