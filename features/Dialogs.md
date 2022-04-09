@@ -41,3 +41,8 @@ But, sometimes the player has to work for certain choices to be available. For t
 
 ## Advanced - Dialog Window Controls
 From time to time it can happen that you want to do something special with the dialog window. For this reason there is a [Dialog Window Control Node]({{ site.baseurl }}{% link nodes-reference/dialog-window-control.md %}). This node can be use to play animations on the window widget, or to hide and show it. In general if the node is never used, then the dialog window is set to automatic mode, meaning it will automatically show at the beginning of the dialog, or hide at the end of the dialog. This could be useful for example if your character becomes deaf during a dialog sequence, and therefore you want to hide the dialog box.
+
+## Advanced - Dialog Text Stylization
+There might potentially be a need that you want to highlight part of the text in a different color. For this reason the plugin uses a RichTextBlock in the UI. With this you can use tags like **\<green\>\</\>** as an example. To create these tags, the blank project template has a data table called DT_DialogTextStyling. In this data table it is possible to create these tags for styling the dialog text. Unreal Engine offers also the usage of RichTextBlockDecorators that can be used to do even more customization, like displaying images in text. This however is not setup by default in the project template.
+
+![Dialog Text Stylization Example]({{ site.baseurl }}/assets/images/DialogSystem/TagSystem.png) 
