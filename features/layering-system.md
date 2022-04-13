@@ -2,7 +2,7 @@
 layout: default
 title: Image Layering
 parent: Features
-nav_order: 8
+nav_order: 9
 ---
 
 # Image Layering

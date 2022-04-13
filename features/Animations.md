@@ -2,7 +2,7 @@
 layout: default
 title: Animations
 parent: Features
-nav_order: 5
+nav_order: 6
 ---
 
 # Animations

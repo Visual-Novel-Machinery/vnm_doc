@@ -2,7 +2,7 @@
 layout: default
 title: Memory System
 parent: Features
-nav_order: 6
+nav_order: 7
 ---
 
 # Memory System
