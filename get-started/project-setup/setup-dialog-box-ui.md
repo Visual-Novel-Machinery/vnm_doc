@@ -13,10 +13,15 @@ nav_order: 3
 2. Create a blueprint class that is based on BaseDialogBoxWidget and call it W_DialogBoxWidget.
     1. Open the widget
     2. Design the widget however you like
-        - Add a text block to the widget named DialogText
-        - Add a text block to the widget named CharacterNameText
+        - Add a rich text block to the widget named DialogText
+            - Set its text style set to DT_DialogTextStyles
+        - Add a rich text block to the widget named CharacterNameText
+            - Set its text style set to DT_DialogTextStyles
         
         ![Dialog Box UI Design]({{ site.baseurl }}/assets/images/DialogBoxSetup/DialogBoxDesign.png)
+    3. Add a row called "Default" to DT_DialogTextStyles and customize it to your liking. This will be how your dialog text gets displayed without any tags.
+        
+        ![Dialog Text Default Row]({{ site.baseurl }}/assets/images/DialogBoxSetup/DialogTextCustomizationDefault.png)
 3. Create a blueprint class that is based on BaseChoiceButton and call it W_ChoiceButton.
     1. Open the widget
     2. Design the widget however you like

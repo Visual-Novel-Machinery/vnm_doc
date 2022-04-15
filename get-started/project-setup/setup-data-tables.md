@@ -12,6 +12,8 @@ nav_order: 2
     - DialogDefinition (Named DT_DialogDefinitions for future reference)
     - DialogImageDefinition (Named DT_CgDefinitions for future reference)
     - DialogImageDefinition (Named DT_SceneBackgroundDefinitions for future reference)
+    - DialogSceneDefinition (Named DT_DialogSceneDefinitions for future reference)
+    - RichTextStyleRow (Named DT_DialogTextStyles for future reference)
     
     ![Table Definition Picker]({{ site.baseurl }}/assets/images/DataTableSetup/TableDefinitionPicker.png)
     
@@ -22,6 +24,7 @@ nav_order: 2
     - DialogDefinitonsTable to DT_DialogDefinitions
     - CgDefinitonsTable to DT_CgDefinitions
     - SceneBackgroundDefinitonsTable to DT_SceneBackgroundDefinitions
+    - DialogSceneDefinitionsTable to DT_DialogSceneDefinitions
     
     ![Data Table Project Settings]({{ site.baseurl }}/assets/images/DataTableSetup/DataTableProjectSettings.png)
 
@@ -36,5 +39,12 @@ If you intend to display CGs in your visual novel, this data table will hold the
 
 ## DT_SceneBackgroundDefinitions
 If you intend to display images in the background during scenes in your visual novel, this data table will hold the information about each of them, specifically which image to display. More details on scene backgrounds can be found [here]({{ site.baseurl }}{% link features/scene-backgrounds.md %}).
+
+## DT_DialogSceneDefinitions
+If you intend to display 3d scenes during dialogs in your visual novel, this data table will hold the information about each of them, specifically which 3d scene to display. More details on Dialog Scenes can be found [here]({{ site.baseurl }}{% link features/dialog-scenes.md %}).
+
+## DT_DialogTextStyles
+This data table is needed for customizing the dialog text displayed at runtime. More details on dialog texts can be found [here]({{ site.baseurl }}{% link features/Dialogs.md %}).
+
 
 After having set up the data tables, we can now move on to [setting up the dialog UI]({{ site.baseurl }}{% link get-started/project-setup/setup-dialog-box-ui.md %}).
