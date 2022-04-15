@@ -10,6 +10,8 @@ When you have a game with a lot of branches, you might want to show the player w
 
 To use this feature make sure you click the "Build Choice Data" Button in the Dialog Blueprint Editor, to ensure that the data has been built for display later on.
 
+![Choice Graph Example]({{ site.baseurl }}/assets/images/ChoiceGraph/ChoiceGraph.png)
+
 ## Setup
 1. Create a new widget and call it W_ChoiceWidget.
 2. Add a scroll box to the widget
