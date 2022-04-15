@@ -41,9 +41,9 @@ Dialog Scenes is an alternative to CGs and Scene Backgrounds. You can use it to 
     ![Set streaming method]({{ site.baseurl }}/assets/images/DialogSceneSystem/SetStreamingMethod.png)
 
 ## Usage
-To now display and hide the scene, you can use the Dialog Scene Show Node and Dialog Scene Hide Node. Different to the other system, there is no transition system for the Dialog Scene Nodesk, meaning it will simply appear for now, once loaded.
+To now display and hide the scene, you can use the [Dialog Scene Show Node]({{ site.baseurl }}{% link nodes-reference/dialog-scene-show.md %}) and [Dialog Scene Hide Node]({{ site.baseurl }}{% link nodes-reference/dialog-scene-hide.md %}). Different to the other system, there is no transition system for the Dialog Scene Nodesk, meaning it will simply appear for now, once loaded.
 
-If you want to now switch between all the cameras that you placed in the level during the Setup Section, you can use Dialog Scene Switch Camera Node. With this node you can switch between two cameras instantaneously or with blending. If you set the Blend Time to 0, it will jump directly to the next camera.
+If you want to now switch between all the cameras that you placed in the level during the Setup Section, you can use [Dialog Scene Switch Camera Node]({{ site.baseurl }}{% link nodes-reference/dialog-scene-switch-camera.md %}). With this node you can switch between two cameras instantaneously or with blending. If you set the Blend Time to 0, it will jump directly to the next camera.
 
 You might have also seen the camera field on the Dialog Scene Show Node. This is there to directly set the view to a specific camera after loading the level, as otherwise the view could be in odd places.
 
