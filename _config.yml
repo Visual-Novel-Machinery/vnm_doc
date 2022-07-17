@@ -37,8 +37,6 @@ aux_links:
     - "https://www.unrealengine.com/marketplace/en-US/product/visual-novel-machinery"
   "Itch.io":
     - "https://al-fe.itch.io/visual-novel-machinery"
-  "Gumroad":
-    - "https://alfe.gumroad.com/l/visual-novel-machinery"
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: true
