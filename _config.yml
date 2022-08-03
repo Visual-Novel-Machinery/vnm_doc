@@ -23,7 +23,7 @@ email: al_fe_work@outlook.com
 description: >- # this means to ignore newlines until "baseurl:"
   Unreal Engine plugin to easily create visual novels
 domain: stkrwork.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
-url: https://stkrwork.github.io  # the base hostname and protocol for your site, e.g. http://example.com
+url: https://Visual-Novel-Machinery.github.io  # the base hostname and protocol for your site, e.g. http://example.com
 baseurl: /vnm_doc                # place folder name if the site is served in a subfolder
 
 # Build settings
