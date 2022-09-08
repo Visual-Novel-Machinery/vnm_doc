@@ -61,18 +61,11 @@ feature_row3:
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - alt: "customizable"
-    title: "Characters"
-    excerpt: "What would a visual novel be without characters. Display them as 2d Images or 3D characters in your scene"
-    url: "/docs/features/characters"
-    btn_class: "btn--primary"
-    btn_label: "Learn more"
-  - alt: "customizable"
     title: "Image Layering"
     excerpt: "Layer images on top of each other, for layering goodness"
     url: "/docs/features/layering-system"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-feature_row4:
   - alt: "customizable"
     title: "Choice Graph"
     excerpt: "Show your players the choices that they have discovered and what paths still await them"
@@ -85,4 +78,3 @@ feature_row4:
 {% include feature_row %}
 {% include feature_row id="feature_row2" %}
 {% include feature_row id="feature_row3" %}
-{% include feature_row id="feature_row4" %}
