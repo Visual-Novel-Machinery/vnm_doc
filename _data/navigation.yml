@@ -1,0 +1,157 @@
+# main links
+main:
+  - title: "Documentation"
+    url: /docs/get-started/
+  - title: "Unreal Marketplace"
+    url: https://www.unrealengine.com/marketplace/en-US/product/visual-novel-machinery
+  - title: "Itch.io"
+    url: https://al-fe.itch.io/visual-novel-machinery
+  # - title: "Sample Posts"
+  #   url: /year-archive/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/
+
+  # documentation links
+docs:
+  - title: Getting Started
+    children:
+      - title: "Get Started"
+        url: /docs/get-started/
+      - title: "Creating your first dialog"
+        url: /docs/get-started/creating-first-dialog/
+  - title: Project Setup
+    children:
+      - title: "Initial Setup"
+        url: /docs/project-setup/
+      - title: "Setting up Data Tables"
+        url: /docs/project-setup/setup-data-tables/
+      - title: "Setting up the Dialog UI"
+        url: /docs/project-setup/setup-dialog-box-ui/
+      - title: "Setting up the Character UI"
+        url: /docs/project-setup/setup-character-ui/
+      - title: "Setting up the CG UI"
+        url: /docs/project-setup/setup-cg-ui/
+      - title: "Setting up the Scene Background UI"
+        url: /docs/project-setup/setup-scene-background-ui/
+      - title: "Setting up Player Interaction"
+        url: /docs/project-setup/setup-player-interaction/
+      - title: "Setting up the Memory System"
+        url: /docs/project-setup/setup-memory-system/
+  - title: Features
+    children:
+      - title: "Dialog System"
+        url: /docs/features/dialogs
+      - title: "Scene Backgrounds"
+        url: /docs/features/scene-backgrounds
+      - title: "Dialog Scenes"
+        url: /docs/features/dialog-scenes
+      - title: "CGs"
+        url: /docs/features/cgs
+      - title: "Dialog Audio"
+        url: /docs/features/audio
+      - title: "Characters"
+        url: /docs/features/characters
+      - title: "Animations"
+        url: /docs/features/animations
+      - title: "Memory System"
+        url: /docs/features/memory-system
+      - title: "Save System"
+        url: /docs/features/save-system
+      - title: "Image Layering"
+        url: /docs/features/layering-system
+      - title: "Choice Graph"
+        url: /docs/features/choice-graph
+      - title: "Dialog Scenes Graph"
+        url: /docs/features/scene-graph
+  - title: Node References
+    children:
+      - title: "CG Add Layer"
+        url: /docs/nodes-references/cg-add-layer
+      - title: "CG Hide"
+        url: /docs/nodes-references/cg-hide
+      - title: "CG Remove Layer"
+        url: /docs/nodes-references/cg-remove-layer
+      - title: "CG Show"
+        url: /docs/nodes-references/cg-show
+      - title: "Character 3D Hide"
+        url: /docs/nodes-references/character-3d-hide
+      - title: "Character 3D Show"
+        url: /docs/nodes-references/character-3d-show
+      - title: "Character Add Layer"
+        url: /docs/nodes-references/character-add-layer
+      - title: "Character Hide"
+        url: /docs/nodes-references/character-hide
+      - title: "Character Memory Get"
+        url: /docs/nodes-references/character-memory-get
+      - title: "Character Memory Set"
+        url: /docs/nodes-references/character-memory-set
+      - title: "Character Move"
+        url: /docs/nodes-references/character-move
+      - title: "Character Remove Layer"
+        url: /docs/nodes-references/character-remove-layer
+      - title: "Character Show"
+        url: /docs/nodes-references/character-show
+      - title: "Dialog Audio Play Background Music"
+        url: /docs/nodes-references/audio-play-bgm
+      - title: "Dialog Audio Play Character Voice Over"
+        url: /docs/nodes-references/audio-play-character-voice-over
+      - title: "Dialog Audio Play Dialog Voice Over"
+        url: /docs/nodes-references/audio-play-dialog-voice-over
+      - title: "Dialog Audio Play Sound Effect"
+        url: /docs/nodes-references/audio-play-sfx
+      - title: "Dialog Audio Stop Background Music"
+        url: /docs/nodes-references/audio-stop-bgm
+      - title: "Dialog Audio Stop Sound Effect"
+        url: /docs/nodes-references/audio-stop-sfx
+      - title: "Dialog Audio Stop Voice Over"
+        url: /docs/nodes-references/audio-stop-voice-over
+      - title: "Dialog Choice"
+        url: /docs/nodes-references/dialog-choice
+      - title: "Dialog End"
+        url: /docs/nodes-references/dialog-end
+      - title: "Dialog Memory Get"
+        url: /docs/nodes-references/dialog-memory-get
+      - title: "Dialog Memory Set"
+        url: /docs/nodes-references/dialog-memory-set
+      - title: "Dialog Scene Hide"
+        url: /docs/nodes-references/dialog-scene-hide
+      - title: "Dialog Scene Show"
+        url: /docs/nodes-references/dialog-scene-show
+      - title: "Dialog Scene Switch Camera"
+        url: /docs/nodes-references/dialog-scene-switch-camera
+      - title: "Dialog Start"
+        url: /docs/nodes-references/dialog-start
+      - title: "Dialog Start Subdialog"
+        url: /docs/nodes-references/dialog-start-sub-dialog
+      - title: "Dialog Text"
+        url: /docs/nodes-references/dialog-text
+      - title: "Dialog Window Control"
+        url: /docs/nodes-references/dialog-window-control
+      - title: "Scene Background Add Layer"
+        url: /docs/nodes-references/scene-background-add-layer
+      - title: "Scene Background Hide"
+        url: /docs/nodes-references/scene-background-hide
+      - title: "Scene Background Remove Layer"
+        url: /docs/nodes-references/scene-background-remove-layer
+      - title: "Scene Background Show"
+        url: /docs/nodes-references/scene-background-show
+  - title: Plugin Settings
+    children:
+      - title: "Runtime Settings"
+        url: /docs/plugin-settings/runtime-settings
+      - title: "Editor Settings"
+        url: /docs/plugin-settings/editor-settings
+  - title: Data Definitions
+    children:
+      - title: "CG Definition"
+        url: /docs/data-definitions/cg-definition
+      - title: "Character Definition"
+        url: /docs/data-definitions/character-definition
+      - title: "Dialog Definition"
+        url: /docs/data-definitions/dialog-definition
+      - title: "Dialog Scene Definition"
+        url: /docs/data-definitions/dialog-scene-definition
+      - title: "Scene Background Definition"
+        url: /docs/data-definitions/scene-background-definition
