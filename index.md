@@ -14,7 +14,7 @@ header:
     - label: "<i class='fas fa-users'></i> Support"
       url: "https://discord.gg/GyHs7GwPWJ"
 excerpt: >
-  Visual Novel Machinery is an Unreal Engine plugin created for Creators to allow them to focus on developing amazing stories without the need of knowing a lot of programming.<br />
+  Visual Novel Machinery is an Unreal Engine plugin made for Creators to allow them to focus on developing amazing stories without the need of knowing a lot of programming.<br />
 feature_row:
   - alt: "customizable"
     title: "Dialogs"
