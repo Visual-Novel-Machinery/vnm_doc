@@ -14,7 +14,7 @@ header:
     - label: "<i class='fas fa-users'></i> Support"
       url: "https://discord.gg/GyHs7GwPWJ"
 excerpt: >
-  Visual Novel Machinery is a plugin for Unreal Engine, which you can use to create your visual novels at ease.<br />
+  Visual Novel Machinery is an Unreal Engine plugin created for Creators to allow them to focus on developing amazing stories without the need of knowing a lot of programming.<br />
 feature_row:
   - alt: "customizable"
     title: "Dialogs"
@@ -37,7 +37,7 @@ feature_row:
 feature_row2:
   - alt: "customizable"
     title: "Characters"
-    excerpt: "What would a visual novel be without characters. Display them as 2d Images or 3D characters in your scene"
+    excerpt: "What would a visual novel be without characters. Display them as 2D Images or 3D characters in your scene"
     url: "/docs/features/characters"
     btn_class: "btn--primary"
     btn_label: "Learn more"
