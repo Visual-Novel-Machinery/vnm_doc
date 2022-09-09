@@ -1,5 +1,7 @@
 # main links
 main:
+  - title: "News"
+    url: /news/
   - title: "Documentation"
     url: /docs/get-started/
   - title: "Unreal Marketplace"
