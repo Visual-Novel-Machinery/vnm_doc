@@ -72,9 +72,77 @@ feature_row3:
     url: "/docs/features/choice-graph"
     btn_class: "btn--primary"
     btn_label: "Learn more"
+gallery:
+  - url: /assets/images/FeatureReel/InGameScreenShot.png
+    image_path: /assets/images/FeatureReel/InGameScreenShot.png
+    alt: "Fully customizable widgets included"
+    title: "Fully customizable widgets included"
+  - url: /assets/images/FeatureReel/MainMenuSystem.png
+    image_path: /assets/images/FeatureReel/MainMenuSystem.png
+    alt: "Main Menu System integrated into plugin"
+    title: "Main Menu System integrated into plugin"
+  - url: /assets/images/FeatureReel/SaveFileSystem.png
+    image_path: /assets/images/FeatureReel/SaveFileSystem.png
+    alt: "Save File System with Screenshots"
+    title: "Save File System with Screenshots"
+  - url: /assets/images/FeatureReel/LinearDialog.png
+    image_path: /assets/images/FeatureReel/LinearDialog.png
+    alt: "Create simple linear dialogs"
+    title: "Create simple linear dialogs"
+  - url: /assets/images/FeatureReel/BranchingDialog.png
+    image_path: /assets/images/FeatureReel/BranchingDialog.png
+    alt: "Create complex branching dialogs"
+    title: "Create complex branching dialogs"
+  - url: /assets/images/FeatureReel/AudioSupport.png
+    image_path: /assets/images/FeatureReel/AudioSupport.png
+    alt: "Play Voice Overs/SFX/Background Music"
+    title: "Play Voice Overs/SFX/Background Music"
+  - url: /assets/images/FeatureReel/DialogTextCustomization.png
+    image_path: /assets/images/FeatureReel/DialogTextCustomization.png
+    alt: "Customize your dialog text with custom tags"
+    title: "Customize your dialog text with custom tags"
+  - url: /assets/images/FeatureReel/Characters.png
+    image_path: /assets/images/FeatureReel/Characters.png
+    alt: "Display characters and move them around"
+    title: "Display characters and move them around"
+  - url: /assets/images/FeatureReel/SceneBackgrounds.png
+    image_path: /assets/images/FeatureReel/SceneBackgrounds.png
+    alt: "Display different scene backgrounds"
+    title: "Display different scene backgrounds"
+  - url: /assets/images/FeatureReel/DialogSceneSupport.png
+    image_path: /assets/images/FeatureReel/DialogSceneSupport.png
+    alt: "Use 3D scenes as backgrounds"
+    title: "Use 3D scenes as backgrounds"
+  - url: /assets/images/FeatureReel/Character3DSupport.png
+    image_path: /assets/images/FeatureReel/Character3DSupport.png
+    alt: "And spawn 3D animated characters in them"
+    title: "And spawn 3D animated characters in them"
+  - url: /assets/images/FeatureReel/CGs.png
+    image_path: /assets/images/FeatureReel/CGs.png
+    alt: "Display different CGs"
+    title: "Display different CGs"
+  - url: /assets/images/FeatureReel/MemorySystem.png
+    image_path: /assets/images/FeatureReel/MemorySystem.png
+    alt: "A memory system for your characters/scenes"
+    title: "A memory system for your characters/scenes"
+  - url: /assets/images/FeatureReel/DataDriven.png
+    image_path: /assets/images/FeatureReel/DataDriven.png
+    alt: "Completely Data-Driven"
+    title: "Completely Data-Driven"
+  - url: /assets/images/FeatureReel/ImageLayering.png
+    image_path: /assets/images/FeatureReel/ImageLayering.png
+    alt: "Use layers to temporarily modify visuals"
+    title: "Use layers to temporarily modify visuals"
+  - url: /assets/images/FeatureReel/ChoiceGraph.png
+    image_path: /assets/images/FeatureReel/ChoiceGraph.png
+    alt: "Display all possible choices at runtime"
+    title: "Display all possible choices at runtime"
 ---
 
 # Features
 {% include feature_row %}
 {% include feature_row id="feature_row2" %}
 {% include feature_row id="feature_row3" %}
+
+# Feature Reel
+{% include gallery %}
