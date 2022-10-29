@@ -14,6 +14,7 @@ sidebar:
     - DialogImageDefinition (Named DT_CgDefinitions for future reference)
     - DialogImageDefinition (Named DT_SceneBackgroundDefinitions for future reference)
     - DialogSceneDefinition (Named DT_DialogSceneDefinitions for future reference)
+    - DialogAudioDefinition (Named DT_DialogAudioDefinitions for future reference)
     - RichTextStyleRow (Named DT_DialogTextStyles for future reference)
     
     ![Table Definition Picker]({{ site.baseurl }}/assets/images/DataTableSetup/TableDefinitionPicker.png)
@@ -26,6 +27,7 @@ sidebar:
     - CgDefinitonsTable to DT_CgDefinitions
     - SceneBackgroundDefinitonsTable to DT_SceneBackgroundDefinitions
     - DialogSceneDefinitionsTable to DT_DialogSceneDefinitions
+    - DialogAudioDefinitionsTable to DT_DialogAudioDefinitions
     
     ![Data Table Project Settings]({{ site.baseurl }}/assets/images/DataTableSetup/DataTableProjectSettings.png)
 
@@ -43,6 +45,9 @@ If you intend to display images in the background during scenes in your visual n
 
 ## DT_DialogSceneDefinitions
 If you intend to display 3d scenes during dialogs in your visual novel, this data table will hold the information about each of them, specifically which 3d scene to display. More details on Dialog Scenes can be found [here]({{ site.baseurl }}{% link docs/features/dialog-scenes.md %}).
+
+## DT_DialogAudioDefinitions
+This datatable holds all references to background music and sound effects. More details on Dialog Audio can be found [here]({{ site.baseurl }}{% link docs/features/audio.md %}).
 
 ## DT_DialogTextStyles
 This data table is needed for customizing the dialog text displayed at runtime. More details on dialog texts can be found [here]({{ site.baseurl }}{% link docs/features/Dialogs.md %}).

@@ -26,6 +26,67 @@ To import the VNMScript file drag and drop it into your Content Browser. After i
 
 For reference how to use all features in VNMScript check their respective documentation page. They always contain the example as both a Blueprint Image and in form of VNMScript.
 
+## Variables
+
+VNMScript supports definition and usage of variables. There are multiple variable types supported in VNMScript:
+
+- int (Integer (42))
+- bool (Boolean variable (true/false))
+- float (Decimal number (42.42))
+- String (Text ("Text Example"))
+
+To create them you need to use the var keyword as seen below:
+```
+var bool booltest
+var int inttest
+var string stringtest
+var float floattest
+```
+
+Integer and decimal variables support the use of arthimetic operators for performing calculations. You can see their usage in the example below:
+```
+var bool booltest
+var int inttest
+var string stringtest
+var float floattest
+var float floattest2
+
+stringtest = "Test"
+booltest = true
+inttest = 3
+inttest = 3 + 4
+inttest = 3 - 4
+inttest = 3 * 4
+inttest = 3 / 4
+floattest = 3.4
+floattest = 3.4 + 2.4
+floattest = 3.4 - 2.4
+floattest = 3.4 * 2.4
+floattest = 3.4 / 2.4
+floattest2 = floattest + 2.4
+```
+
+As seen above you can add numbers directly or use sum up another variable with a number.
+
+Boolean variables also support logical operators like && and ||, as shown in the example below:
+```
+var bool booltest
+var bool booltest2
+var bool booltest3
+
+booltest = true
+booltest2 = false
+booltest3 = booltest || booltest2
+booltest3 = booltest && booltest2
+booltest3 = 3 > 4
+booltest3 = 3 >= 4
+booltest3 = 3 < 4
+booltest3 = 3 <= 4
+booltest3 = 3 == 4
+```
+
+The script parser then will import these operations and generate a Math Expression Node in the node-based dialog blueprint.
+
 ## Important Notes
 
 If you are using Ids in your script, make sure you have added them to the respective data table before you import the file.
