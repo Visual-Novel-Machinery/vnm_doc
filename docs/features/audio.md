@@ -11,6 +11,21 @@ sidebar:
 Sometimes you just want to add some sound to your visual novel, to  make the reader feel the emotion of the scene even more or to hear the characters speak. For this purpose Visual Novel Machinery is using the Unreal Engine Audio System to allow you to add background music, sound effects, or voice overs.
 
 ![Audio System]({{ site.baseurl }}/assets/images/Audio/audio-in-action.png)
+```
+dialog.text -character=cube -emotion=Idle "While having a mute game is also great, sound can make everything so much better."
+dialog.text -character=cube -emotion=Idle "For example, let's add some background music."
+audio.play.bgm -id=background-music
+dialog.text -character=cube -emotion=Idle "Isn't this relaxing."
+dialog.text -character=cube -emotion=Idle "But enough of this."
+audip.stop.bgm
+dialog.text -character=cube -emotion=Idle "It is time that we flip the page to a new chapter."
+audio.play.sfx -id=page-turn
+dialog.text -character=cube -emotion=Idle "And now that we are on a new page, let me introduce myself."
+audio.play.dialog.voiceover -id=hello-voice
+dialog.text -character=cube -emotion=Idle "Hello."
+dialog.text -character=cube -emotion=Idle "I am Cube."
+dialog.end -nextdialog=start
+```
 
 ## Background Music
 To add background music you'll need to first important your audio files into the Unreal Engine. After this has been done, you'll need to add another entry to your Dialog Audio Definitions Data Table. Ensure that you specify the type in the Dialog Audio Definition as Background Music, as otherwise the Background Audio Nodes will not find it. After all of that you can now play and stop the background music using the [Dialog Audio Play Background Music Node]({{ site.baseurl }}{% link docs/nodes-reference/audio-play-bgm.md %}) and [Dialog Audio Stop Background Music Node]({{ site.baseurl }}{% link docs/nodes-reference/audio-stop-bgm.md %}). Just remember that only one background music can ever be played at the same time.

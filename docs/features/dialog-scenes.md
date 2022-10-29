@@ -50,3 +50,13 @@ If you want to now switch between all the cameras that you placed in the level d
 You might have also seen the camera field on the Dialog Scene Show Node. This is there to directly set the view to a specific camera after loading the level, as otherwise the view could be in odd places.
 
 ![Dialog Scenes Example]({{ site.baseurl }}/assets/images/DialogSceneSystem/DialogSceneExample.png)
+```
+dialog.text -character=cube -emotion=Idle "Let's look at 3d scenes."
+dialogscene.show -id=test_scene camera=TestCamera
+dialog.text -character=cube -emotion=Idle "Let's change the view!"
+dialogscene.switchcamera -id=test_scene camera=TestCamera
+dialog.text -character=cube -emotion=Idle "It looks amazing!"
+dialogscene.hide
+dialog.text -character=cube -emotion=Idle "And it's gone again."
+dialog.end -nextdialog=start
+```

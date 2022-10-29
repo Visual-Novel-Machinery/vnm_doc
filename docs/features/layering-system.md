@@ -19,6 +19,14 @@ For CGs and Scene Backgrounds the system works the same. Their definitions have 
 To now use the layering in the dialog blueprint a few things have to be made sure. You can only add layers to a character/cg/scene background if the image is currently displayed. Otherwise nothing happens. There is a Add and Remove node for all three image types. 
 
 ![Image Layering Nodes]({{ site.baseurl }}/assets/images/ImageLayering/ImageLayerNodes.png)
+```
+cg.addlayer -id=cg1 -layer=extra -image=circle
+cg.removelayer -id=cg1 -layer=extra
+scenebackground.addlayer -id=cg1 -layer=extra -image=text
+scenebackground.removelayer -id=cg1 -layer=extra
+character.addlayer -id=cg1 -layer=headwear -image=tophat
+character.removelayer -id=cg1 -layer=headwear
+```
 
 If you want to add a layer with a specific image to the image use the corresponding Add Layer Node. If you want to switch the content of a layer just use the corresponding Add Layer Node again with the different Image Id for that specific layer id. If you want to remove a layer again you can use the corresponding Remove Layer Node. At the moment the Image Layering system does not support an animation system when switching layers.
 

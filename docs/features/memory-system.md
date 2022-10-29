@@ -19,6 +19,16 @@ Sometimes it is necessary for a character to remember something, or save a vaue 
 These values can be get/set with their respective nodes. There are [Character Memory Get Node ]({{ site.baseurl }}{% link docs/nodes-reference/character-memory-get.md %}) and [Character Memory Set Node ]({{ site.baseurl }}{% link docs/nodes-reference/character-memory-set.md %}) for characters and [Dialog Memory Get Node ]({{ site.baseurl }}{% link docs/nodes-reference/character-memory-get.md %}) and [Dialog Memory Set Node ]({{ site.baseurl }}{% link docs/nodes-reference/character-memory-set.md %}) for dialogs. You can use these to access and modify the memory values for characters/dialogs. The node's value input/output pin will automatically adapt to the datatype of the selected memory when selecting it.
 
 ![Memory Nodes]({{ site.baseurl }}/assets/images/MemorySystem/MemoryNodes.png)
+```
+var bool TestBoolVariable
+var bool BoolMemoryVariable
+
+character.memory.set cube TestBool TestBoolVariable
+TestBoolVariable = character.memory.get cube TestBool
+
+dialog.memory.set cube BoolMemory BoolMemoryVariable
+BoolMemoryVariable = character.memory.get cube BoolMemory
+```
 
 You can define a memory in the Character Definitions Data Table for characters or in the Dialog Definitions Data Table for dialogs. In there each dialog/character as an array field for configuring the memory values. Each memory value will need a memory id to clearly identify the memory. This id has to be unique. After adding it there, reopen your dialog blueprint and the nodes should find them.
 

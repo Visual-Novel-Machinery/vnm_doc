@@ -23,10 +23,16 @@ There are multiple events supported by the plugin which are:
 - Custom: More below
 
 ![Transition Events]({{ site.baseurl }}/assets/images/Animations/CG_Transitions_Details_Panel.png)
+```
+cg.show -transition=Fade
+```
 
 Once a transition has been selected, an additional checkbox will appear, the "Don't wait for transition to finish" checkbox. If this checkbox is set, then the game will automatically proceed to the next node. This can be useful if you for example dont want for a CG to finish appearing or disappearing for proceeding in the story.
 
 ![Dont wait to transition to finish checkbox]({{ site.baseurl }}/assets/images/Animations/CG_With_Transition_Details_Panel.png)
+```
+cg.show -transition=Fade
+```
 
 With [Dialog Text Nodes]({{ site.baseurl }}{% link docs/nodes-reference/dialog-text.md %}), animations are also available, as these are able to show characters in different emotions, and therefore allows to play transition events as well for the characters.
 
@@ -34,6 +40,9 @@ With [Dialog Text Nodes]({{ site.baseurl }}{% link docs/nodes-reference/dialog-t
 As seen above, there is also the option to use custom Widget Animations. For this select the option "Custom".
 
 ![Custom Transition Animation]({{ site.baseurl }}/assets/images/Animations/CG_With_Custom_Transition_Details_Panel.png)
+```
+cg.show -customtransition=MyCustomAnimation
+```
 
 After selecting this, a Custom Transition Event Name Field will appear. In this field you can specify the widget animation that should be used. This widget animation needs to be specified in the correct widget. See the table below to match the correct nodes with the correct widget:
 
@@ -57,3 +66,6 @@ After having set this all up, your widget will now play the animation forward, i
 There is also another form of animation that has nothing to do with the system described above. This system is used for when moving a character to a different position. Per default, the character is teleported to the new location onscreen. The [Character Move Node]({{ site.baseurl }}{% link docs/nodes-reference/character-move.md %}) however also offers the option for the character to slide to the new position. If this behavior is desired then the "Move with Animation" option needs to be checked.
 
 ![Character Move Animation]({{ site.baseurl }}/assets/images/Animations/Character_Move_Animation.png)
+```
+character.move -id=cube -position=CENTER -animated
+```

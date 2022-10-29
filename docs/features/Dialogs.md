@@ -16,6 +16,10 @@ To create a dialog blueprint, right-click in the content browser in a folder of 
 A dialog generally consists of a beginning and an end. What is important is that there can only ever be one start point, but infinite endings for a dialog object.
 
 ![Base Dialog Anatomy]({{ site.baseurl }}/assets/images/DialogSystem/BaseAnatomy.png)
+```
+# Dialog start node is not specially added to the script
+dialog.end
+```
 
 The start point of the dialog is represented in the Graph Editor with the [Dialog Start Node]({{ site.baseurl }}{% link docs/nodes-reference/dialog-start.md %}). 
 
@@ -31,15 +35,59 @@ However, this is most likely not enough. The node can also display the name of t
 Now add multiple [Dialog Text Node]({{ site.baseurl }}{% link docs/nodes-reference/dialog-text.md %}) in sequence, and you have created a simple short linear dialog using Visual Novel Machinery.
 
 ![Linear Dialog Example]({{ site.baseurl }}/assets/images/DialogSystem/LinearDialog.png)
+```
+dialog.text "Something is described"
+dialog.text -character=me "I am saying something"
+dialog.end
+```
 
 ## Basics - Branching Dialog
 Sometimes a linear story is not enough and you want to go ahead and branch it with user choices. For this the dialog system supports player choices. These can be created using [Dialog Choice Nodes]({{ site.baseurl }}{% link docs/nodes-reference/dialog-choice.md %}). To add choices to it, click on the node and specify them in the Details Panel. The most basic choice could be a yes/no or up/down choice. It is up to you to decide which options the player has. These options will then be displayed as buttons for the user to click. Each choice added is internally of data type Text, meaning they can be localized.
 
 ![Branching Dialog Example]({{ site.baseurl }}/assets/images/DialogSystem/BranchingDialog.png) 
+```
+dialog.text "Something is described"
+dialog.text -character=me "I am saying something"
+dialog.choice "Choice 1" choice1 "Choice 2" choice2
+	:choice1
+	dialog.text -character=me "I chose Option 1"
+	-> endchoice
+	:choice2
+	dialog.text -character=me "I chose Option 2"
+	-> endchoice
+
+:endchoice
+dialog.end
+```
 
 But, sometimes the player has to work for certain choices to be available. For this reason the [Dialog Choice Node]({{ site.baseurl }}{% link docs/nodes-reference/dialog-choice.md %}) supports making all choices conditional. This means only if a certain condition is met, then the choice is displayed to the player. For example, if the player hasn't opened a door, then the choice to close it would be hidden. Alternatively, if the player has already viewed something, then the option to view the object is hidden.
 
-![Branching Dialog Example with Conditions]({{ site.baseurl }}/assets/images/DialogSystem/BranchingDialogConditional.png) 
+![Branching Dialog Example with Conditions]({{ site.baseurl }}/assets/images/DialogSystem/BranchingDialogConditional.png)
+```
+var bool ChoiceOneSeen
+var bool ChoiceTwoSeen
+
+dialog.text "Something is described"
+dialog.text -character=me "I am saying something"
+
+:beforechoice
+# Conditional choice not supported yet
+dialog.choice "Choice 1" choice1 "Choice 2" choice2 "Move On" moveon
+	:choice1
+	dialog.text -character=me "I chose Option 1"
+  ChoiceOneSeen=true
+	-> beforechoice
+	:choice2
+	dialog.text -character=me "I chose Option 2"
+  ChoiceTwoSeen=true
+	-> beforechoice
+	:moveon
+	dialog.text -character=me "I am moving on"
+	-> endchoice
+
+:endchoice
+dialog.end
+```
 
 ## Advanced - Dialog Window Controls
 From time to time it can happen that you want to do something special with the dialog window. For this reason there is a [Dialog Window Control Node]({{ site.baseurl }}{% link docs/nodes-reference/dialog-window-control.md %}). This node can be use to play animations on the window widget, or to hide and show it. In general if the node is never used, then the dialog window is set to automatic mode, meaning it will automatically show at the beginning of the dialog, or hide at the end of the dialog. This could be useful for example if your character becomes deaf during a dialog sequence, and therefore you want to hide the dialog box.
@@ -47,4 +95,7 @@ From time to time it can happen that you want to do something special with the d
 ## Advanced - Dialog Text Stylization
 There might potentially be a need that you want to highlight part of the text in a different color. For this reason the plugin uses a RichTextBlock in the UI. With this you can use tags like **\<green\>\</\>** as an example. To create these tags, the blank project template has a data table called DT_DialogTextStyling. In this data table it is possible to create these tags for styling the dialog text. Unreal Engine offers also the usage of RichTextBlockDecorators that can be used to do even more customization, like displaying images in text. This however is not setup by default in the project template.
 
-![Dialog Text Stylization Example]({{ site.baseurl }}/assets/images/DialogSystem/TagSystem.png) 
+![Dialog Text Stylization Example]({{ site.baseurl }}/assets/images/DialogSystem/TagSystem.png)
+```
+dialog.text -character=cube "You can also do fancy stuff like write <green>green text</> or <red>red text</>"
+```

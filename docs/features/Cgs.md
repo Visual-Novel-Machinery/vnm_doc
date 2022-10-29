@@ -16,5 +16,12 @@ In every Visual Novel, some moments can only be displayed with an image, as an i
 Visual Novel Machinery contains two nodes for working with CGs. These are [CG Show Node]({{ site.baseurl }}{% link docs/nodes-reference/cg-show.md %}) and [CG Hide Node]({{ site.baseurl }}{% link docs/nodes-reference/cg-hide.md %}). As the names suggest, they are used for showing or hidding the CG. The CGs available are defined in the CG Definitions Data Table, and can be selected in the [CG Show Node]({{ site.baseurl }}{% link docs/nodes-reference/cg-show.md %}).
 
 ![CG nodes in action]({{ site.baseurl }}/assets/images/CG/CGNodes.png)
+```
+cg.show -id=cg1
+dialog.text -character=cube "Look! It is CG1"
+cg.hide
+dialog.text -character=cube "Where did it go?"
+dialog.end -nextdialog=start
+```
 
 There are also nodes for using image layering, but more about in the [CG image layering feature documentation]({{ site.baseurl }}{% link docs/features/layering-system.md %}).

@@ -16,5 +16,12 @@ In every Visual Novel, it is important to set the scene, to know where the chara
 Visual Novel Machinery contains two nodes for working with scene backgrounds. These are [Scene Background Show Node]({{ site.baseurl }}{% link docs/nodes-reference/scene-background-show.md %}) and [Scene Background Hide Node]({{ site.baseurl }}{% link docs/nodes-reference/scene-background-hide.md %}). As the names suggest, they are used for showing or hidding the scene background images. The scene backgrounds available are defined in the Scene Background Definitions Data Table, and can be selected in the [Scene Background Show Node]({{ site.baseurl }}{% link docs/nodes-reference/scene-background-show.md %}).
 
 ![Scene background nodes in action]({{ site.baseurl }}/assets/images/SceneBackgrounds/SceneBackgroundNodes.png)
+```
+scenebackground.show -id=cg1
+dialog.text -character=cube "I am now in scene background 1"
+scenebackground.hide
+dialog.text -character=cube "I am now in the void"
+dialog.end -nextdialog=start
+```
 
 There are also nodes for using image layering, but more about in the [scene background image layering feature documentation]({{ site.baseurl }}{% link docs/features/layering-system.md %}).
