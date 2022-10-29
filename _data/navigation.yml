@@ -45,6 +45,8 @@ docs:
     children:
       - title: "Dialog System"
         url: /docs/features/dialogs
+      - title: "VNM Script"
+        url: /docs/features/vnm-script
       - title: "Scene Backgrounds"
         url: /docs/features/scene-backgrounds
       - title: "Dialog Scenes"
