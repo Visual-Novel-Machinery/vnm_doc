@@ -64,22 +64,21 @@ But, sometimes the player has to work for certain choices to be available. For t
 
 ![Branching Dialog Example with Conditions]({{ site.baseurl }}/assets/images/DialogSystem/BranchingDialogConditional.png)
 ```
-var bool ChoiceOneSeen
-var bool ChoiceTwoSeen
+var bool ChoiceOneNotSeen
+var bool ChoiceTwoNotSeen
 
 dialog.text "Something is described"
 dialog.text -character=me "I am saying something"
 
 :beforechoice
-# Conditional choice not supported yet
-dialog.choice "Choice 1" choice1 "Choice 2" choice2 "Move On" moveon
+dialog.choice.conditional ChoiceOneNotSeen "Choice 1" choice1 ChoiceTwoNotSeen "Choice 2" choice2 true "Move On" moveon
 	:choice1
 	dialog.text -character=me "I chose Option 1"
-  ChoiceOneSeen=true
+  	ChoiceOneNotSeen=false
 	-> beforechoice
 	:choice2
 	dialog.text -character=me "I chose Option 2"
-  ChoiceTwoSeen=true
+  	ChoiceTwoNotSeen=false
 	-> beforechoice
 	:moveon
 	dialog.text -character=me "I am moving on"

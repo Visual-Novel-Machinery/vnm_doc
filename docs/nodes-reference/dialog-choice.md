@@ -34,5 +34,8 @@ sidebar:
 
 ## Script Reference
 ```
-dialog.window "<choice text 1>" <choice label 1> "<choice text 2>" <choice label 2> [...]
+dialog.choice "<choice text 1>" <choice label 1> "<choice text 2>" <choice label 2> [...]
+```
+```
+dialog.choice.conditional <choice 1 condition variable> "<choice text 1>" <choice label 1> <choice 2 condition variable> "<choice text 2>" <choice label 2> [...]
 ```
