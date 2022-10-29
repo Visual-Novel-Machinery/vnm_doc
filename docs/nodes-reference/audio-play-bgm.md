@@ -39,3 +39,8 @@ sidebar:
 | Start Time | float | The time in seconds at which to start in the background music. Default is 0.0 seconds. |
 | Wait for Audio To Finish | bool | If true the system will wait for the background music to finish before moving on to the next node. Is incompatible with property "Is Looping" |
 | Is Looping | bool | If true the background music will loop until stopped |
+
+## Script Reference
+```
+audio.play.bgm -id=<background music id> [-volume=<volume level>] [-pitch=<pitch level>] [-starttime=<start time>] [-wait] [-loop]
+```

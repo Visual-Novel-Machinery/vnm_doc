@@ -36,3 +36,8 @@ sidebar:
 | Name | Type | Description |
 | --- | --- | --- |
 | Move With Animation | Boolean | If set to true then the character will slide to its new position instead of teleporting to it |
+
+## Script Reference
+```
+character.show -id=<character id> -emotion=<emotion id> [-position=<CENTER/LEFT/RIGHT/CUSTOM>] [-animated]
+```

@@ -23,3 +23,8 @@ sidebar:
 | Name | Type | Description |
 | --- | --- | --- |
 | Execution Line Out | Execution | Execution Line Output ||
+
+## Script Reference
+```
+dialogscene.hide
+```

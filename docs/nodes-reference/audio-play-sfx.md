@@ -38,3 +38,8 @@ sidebar:
 | Pitch | float | The pitch at which the Sound Effect will be played |
 | Start Time | float | The time in seconds at which to start in the Sound Effect. Default is 0.0 seconds. |
 | Wait for Audio To Finish | bool | If true the system will wait for the Sound Effect to finish before moving on to the next node. |
+
+## Script Reference
+```
+audio.play.sfx -id=<sound effect id> [-volume=<volume level>] [-pitch=<pitch level>] [-starttime=<start time>] [-wait]
+```

@@ -30,3 +30,8 @@ sidebar:
 | --- | --- |
 | Dialog Scene Id | The Id of the Dialog Scene to show |
 | Camera Name | The camera to switch to after entering the dialog scene |
+
+## Script Reference
+```
+dialogscene.show -id=<scene background id> -camera=<camera name>
+```

@@ -49,3 +49,8 @@ sidebar:
 | Volume | float | The volume at which the voice over should play (0.0-1.0) |
 | Pitch | float | The pitch at which the voice over will be played |
 | Start Time | float | The time in seconds at which to start in the voice over. Default is 0.0 seconds. |
+
+## Script Reference
+```
+dialog.text [-character=<character id> [-emotion=<emotion id>]] "<text>"
+```

@@ -31,3 +31,8 @@ sidebar:
 | --- | --- | --- |
 | Choices | TArray\<FText\> | The choices the player can make at this junction. When changing this, the node will regenerate all its output pins to the match the choices array. |
 | Make Choice Conditional | Boolean | Makes all choices conditional. If a condition is not met the choice is hidden from the player. |
+
+## Script Reference
+```
+dialog.window "<choice text 1>" <choice label 1> "<choice text 2>" <choice label 2> [...]
+```

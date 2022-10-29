@@ -31,3 +31,8 @@ sidebar:
 | Character | The Id of the character to which to add the layer |
 | Layer | The Id of the layer that will be added/modified |
 | Image | The Id of the image that will be displayed in the layer |
+
+## Script Reference
+```
+character.addlayer -id=<character id> -layer=<layer id> -image=<image id>
+```

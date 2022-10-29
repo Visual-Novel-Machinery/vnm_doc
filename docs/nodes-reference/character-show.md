@@ -39,3 +39,8 @@ sidebar:
 | Transition Event | Transition Event | How should the character be shown |
 | Custom Transition Event Name | FString | The name of the animation to use if Transition Event is set to Custom |
 | Dont Wait For Transition To Finish | Boolean | If set to true then the dialog will automatically continue, while the character finishes its transition |
+
+## Script Reference
+```
+character.show -id=<character id> -emotion=<emotion id> [-position=<CENTER/LEFT/RIGHT/CUSTOM>] [-transition=<transition name>] [-dontwait] [-customtransition=<Animation name>]
+```

@@ -38,3 +38,8 @@ sidebar:
 | Pitch | float | The pitch at which the Dialog Voice Over will be played |
 | Start Time | float | The time in seconds at which to start in the Dialog Voice Over. Default is 0.0 seconds. |
 | Wait for Audio To Finish | bool | If true the system will wait for the Dialog Voice Over to finish before moving on to the next node. |
+
+## Script Reference
+```
+audio.play.dialog.voiceover -dialog=<dialog id> -id=<voice over id> [-volume=<volume level>] [-pitch=<pitch level>] [-starttime=<start time>] [-wait]
+```

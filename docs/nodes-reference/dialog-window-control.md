@@ -38,3 +38,8 @@ sidebar:
 | Transition Event | Transition Event | How should the dialog window be transitioning |
 | Custom Transition Event Name | FString | The name of the animation to use if Transition Event is set to Custom |
 | Dont Wait For Transition To Finish | Boolean | If set to true then the dialog will automatically continue, while the dialog window finishes its transition |
+
+## Script Reference
+```
+dialog.window [-automatic/manual] [-show/hide]
+```

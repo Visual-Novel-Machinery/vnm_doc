@@ -30,3 +30,8 @@ sidebar:
 | --- | --- |
 | Character | The Id of the character to which to add the layer |
 | Layer | The Id of the layer that will be removed |
+
+## Script Reference
+```
+character.removelayer -id=<character id> -layer=<layer id>
+```

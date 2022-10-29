@@ -31,3 +31,8 @@ sidebar:
 | Transition Event | Transition Event | How should the CG be hidden |
 | Custom Transition Event Name | FString | The name of the animation to use if Transition Event is set to Custom |
 | Dont Wait For Transition To Finish | Boolean | If set to true then the dialog will automatically continue, while the CG finishes its transition |
+
+## Script Reference
+```
+cg.hide [-transition=<transition name>] [-dontwait] [-customtransition=<Animation name>]
+```

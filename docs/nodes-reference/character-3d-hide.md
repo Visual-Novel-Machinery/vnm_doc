@@ -29,3 +29,8 @@ sidebar:
 | Name | Description |
 | --- | --- |
 | Character 3D | The Id of the character to hide |
+
+## Script Reference
+```
+character3d.show -id=<character id>
+```
