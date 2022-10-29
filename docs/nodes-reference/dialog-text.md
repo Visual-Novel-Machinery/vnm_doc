@@ -52,5 +52,5 @@ sidebar:
 
 ## Script Reference
 ```
-dialog.text [-character=<character id> [-emotion=<emotion id>]] "<text>"
+dialog.text [-character=<character id> [-emotion=<emotion id>]] [-charactervoiceover=<character voice over id>] [-dialogvoiceover=<dialog voice over id>] [-volume=<volume level>] [-pitch=<pitch level>] [-starttime=<start time>] "<text>"
 ```
