@@ -72,6 +72,13 @@ feature_row3:
     url: "/docs/features/choice-graph"
     btn_class: "btn--primary"
     btn_label: "Learn more"
+feature_row4:
+  - alt: "customizable"
+    title: "VNM Script"
+    excerpt: "Use VNMScript, a scripting language, if you prefer the text-based approach"
+    url: "/docs/features/vnm-script"
+    btn_class: "btn--primary"
+    btn_label: "Learn more"
 gallery:
   - url: /assets/images/FeatureReel/InGameScreenShot.png
     image_path: /assets/images/FeatureReel/InGameScreenShot.png
@@ -93,6 +100,14 @@ gallery:
     image_path: /assets/images/FeatureReel/BranchingDialog.png
     alt: "Create complex branching dialogs"
     title: "Create complex branching dialogs"
+  - url: /assets/images/FeatureReel/ImageChoices.png
+    image_path: /assets/images/FeatureReel/ImageChoices.png
+    alt: "Use images for player choices"
+    title: "Use images for player choices"
+  - url: /assets/images/FeatureReel/3DChoices.png
+    image_path: /assets/images/FeatureReel/3DChoices.png
+    alt: "Use 3D objects for player choices"
+    title: "Use 3D objects for player choices"
   - url: /assets/images/FeatureReel/AudioSupport.png
     image_path: /assets/images/FeatureReel/AudioSupport.png
     alt: "Play Voice Overs/SFX/Background Music"
@@ -117,6 +132,10 @@ gallery:
     image_path: /assets/images/FeatureReel/Character3DSupport.png
     alt: "And spawn 3D animated characters in them"
     title: "And spawn 3D animated characters in them"
+  - url: /assets/images/FeatureReel/VNMScript.png
+    image_path: /assets/images/FeatureReel/VNMScript.png
+    alt: "Offers scripting language for text-based approach as well"
+    title: "Offers scripting language for text-based approach as well"
   - url: /assets/images/FeatureReel/CGs.png
     image_path: /assets/images/FeatureReel/CGs.png
     alt: "Display different CGs"
@@ -143,6 +162,7 @@ gallery:
 {% include feature_row %}
 {% include feature_row id="feature_row2" %}
 {% include feature_row id="feature_row3" %}
+{% include feature_row id="feature_row4" %}
 
 # Feature Reel
 {% include gallery %}
