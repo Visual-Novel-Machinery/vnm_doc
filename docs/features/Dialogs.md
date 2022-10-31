@@ -88,6 +88,34 @@ dialog.choice.conditional ChoiceOneNotSeen "Choice 1" choice1 ChoiceTwoNotSeen "
 dialog.end
 ```
 
+## Advanced - Image Choices
+Sometimes you want a player to maybe select a location on a map or select images instead of buttons for them to make a choice. For this option Image Choices exist. You can configure this directly in the details of a [Dialog Choice Node]({{ site.baseurl }}{% link docs/nodes-reference/dialog-choice.md %}). To make a choice an image choice make sure to check "Is Image Choice" and set the Image Choice Widget class to your widget.
+
+![Image Choice Configuration]({{ site.baseurl }}/assets/images/DialogSystem/ImageChoicesConfiguration.png)
+
+The Widget needs to derive from the class Base Image Choice Widget. The reason it is always a custom widget is so that you can design it exactly in the way you want it to appear to, as most likely each image choice sequence is unique.
+
+In your Image Choice Widget you'll need to add a Panel Widget (a Panel Widget can be a Canvas Panel/Horizontal Box/Vertical Box/...) named ChoiceButtonsList. In this panel you'll need to add in all your Image Buttons. Make sure the widgets you add to the panel derive from the class "Base Image Choice Button" to ensure everything is handled properly. The plugin also already contains a already setup Image Choice Button called W_ImageChoiceButton, which you can use instead if you don't want to set up your own.
+
+![Image Choice Widget]({{ site.baseurl }}/assets/images/DialogSystem/ImageChoiceWidget.png)
+
+After you have created and designed your image choice widget to your liking, set it on the [Dialog Choice Node]({{ site.baseurl }}{% link docs/nodes-reference/dialog-choice.md %}) and you are ready to go.
+
+![Image Choice Example]({{ site.baseurl }}/assets/images/DialogSystem/ImageChoiceExample.png)
+
+## Advanced - 3D Choices
+The same way you can do stuff in 2D for choices, you can do things in 3D with choices as well. Before using 3D choices, make sure you have a [Dialog Scene]({{ site.baseurl }}{% link docs/features/dialog-scenes.md %}) loaded, to make sure the choice system can actually find your choices in the 3D World.
+
+![3D Choice Nodes Example]({{ site.baseurl }}/assets/images/DialogSystem/3DChoiceExampleNodes.png)
+
+In your [Dialog Scene]({{ site.baseurl }}{% link docs/features/dialog-scenes.md %}) you'll need to add actors that derive from the classes VNMChoiceActor/VNMChoicePawn/VNMChoiceCharacter depending on what you need in your scene. In these actors you need to set the Choice Id to the text you set in the [Dialog Choice Node]({{ site.baseurl }}{% link docs/nodes-reference/dialog-choice.md %}), so that they can react if they are relevant for a choice.
+
+![3D Choice Actor Configuration]({{ site.baseurl }}/assets/images/DialogSystem/3DChoiceActorConfiguration.png)
+
+Afterwards, you can check the setting "Is 3D Choice" on your [Dialog Choice Node]({{ site.baseurl }}{% link docs/nodes-reference/dialog-choice.md %}), and the choice will work as a 3D Choice.
+
+![3D Choice Example]({{ site.baseurl }}/assets/images/DialogSystem/3DChoiceExample.png)
+
 ## Advanced - Dialog Window Controls
 From time to time it can happen that you want to do something special with the dialog window. For this reason there is a [Dialog Window Control Node]({{ site.baseurl }}{% link docs/nodes-reference/dialog-window-control.md %}). This node can be use to play animations on the window widget, or to hide and show it. In general if the node is never used, then the dialog window is set to automatic mode, meaning it will automatically show at the beginning of the dialog, or hide at the end of the dialog. This could be useful for example if your character becomes deaf during a dialog sequence, and therefore you want to hide the dialog box.
 

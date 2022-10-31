@@ -35,10 +35,12 @@ sidebar:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| Character Positioning | The position of the character (LEFT/CENTER/RIGHT/TRUECENTER) |
+| Character Positioning | ECharacterPositioning | The position of the character (LEFT/CENTER/RIGHT/TRUECENTER) |
 | Transition Event | Transition Event | How should the character be shown |
 | Custom Transition Event Name | FString | The name of the animation to use if Transition Event is set to Custom |
 | Dont Wait For Transition To Finish | Boolean | If set to true then the dialog will automatically continue, while the character finishes its transition |
+| Layers | TArray\<FImageLayerInfo\> | Layers that should be automatically added to the character when showing it. |
+
 
 ## Script Reference
 ```

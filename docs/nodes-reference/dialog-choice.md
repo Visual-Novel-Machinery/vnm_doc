@@ -31,6 +31,9 @@ sidebar:
 | --- | --- | --- |
 | Choices | TArray\<FText\> | The choices the player can make at this junction. When changing this, the node will regenerate all its output pins to the match the choices array. |
 | Make Choice Conditional | Boolean | Makes all choices conditional. If a condition is not met the choice is hidden from the player. |
+| Is Image Choice | Boolean | Check this to make the choice an image choice. If this is checked you can then set the Image Choice Widget class |
+| Image Choice Widget Class | TSubclassOf\<UBaseImageChoiceWidget\> | The widget that should be displayed if this choice is an image choice |
+| Is 3DChoice | Boolean | Check this if you want to make the choice a 3D choice. If this is checked then the choice system will search for ChoiceActors/ChoicePawns/ChoiceCharacters in the level instead of using the UI. |
 
 ## Script Reference
 ```
