@@ -13,7 +13,7 @@ In every Visual Novel, some moments can only be displayed with an image, as an i
 
 ## Basics
 
-Visual Novel Machinery contains two nodes for working with CGs. These are [CG Show Node]({{ site.baseurl }}{% link docs/nodes-reference/cg-show.md %}) and [CG Hide Node]({{ site.baseurl }}{% link docs/nodes-reference/cg-hide.md %}). As the names suggest, they are used for showing or hidding the CG. The CGs available are defined in the CG Definitions Data Table, and can be selected in the [CG Show Node]({{ site.baseurl }}{% link docs/nodes-reference/cg-show.md %}).
+Visual Novel Machinery contains two nodes for working with CGs. These are [CG Show Node]({{ site.baseurl }}{% link docs/nodes-reference/cg-show.md %}) and [CG Hide Node]({{ site.baseurl }}{% link docs/nodes-reference/cg-hide.md %}). As the names suggest, they are used for showing or hiding the CG. The CGs available are defined in the CG Definitions Data Table, and can be selected in the [CG Show Node]({{ site.baseurl }}{% link docs/nodes-reference/cg-show.md %}).
 
 ![CG nodes in action]({{ site.baseurl }}/assets/images/CG/CGNodes.png)
 ```
