@@ -21,5 +21,5 @@ Changelog:
 - Save slots are now dynamically created, meaning you can now have an infinite amount of save slots. If there are more save slots than displayed then the save ui can now go to a second/third/... page to display the additional save slots
 - Added support for a gallery system
 	- To make the cg appear in the gallery, give it a cg group id
-	- If multiple cgs have the same cg group id, then they will be part of the save slot. This means when the player clicks on the cg, the cgs will be displayed one after another
+	- If multiple cgs have the same cg group id, then they will be part of the gallery display slot. This means when the player clicks on the cg, the cgs will be displayed one after another
 	- gallery system supports paging as well
