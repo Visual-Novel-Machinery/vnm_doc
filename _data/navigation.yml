@@ -97,6 +97,10 @@ docs:
         url: /docs/nodes-references/character-remove-layer
       - title: "Character Show"
         url: /docs/nodes-references/character-show
+      - title: "Character Rename"
+        url: /docs/nodes-references/character-rename
+      - title: "Character Interactive Rename"
+        url: /docs/nodes-references/character-interactive-rename
       - title: "Dialog Audio Play Background Music"
         url: /docs/nodes-references/audio-play-bgm
       - title: "Dialog Audio Play Character Voice Over"
