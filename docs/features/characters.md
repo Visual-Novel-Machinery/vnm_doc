@@ -72,3 +72,5 @@ dialog.text -character=manny "Oh well, let's go back."
 dialog.end -nextdialog=start
 ```
 
+## Renaming characters
+In some cases you want to allow the player to rename a character, for example the character they are playing for more immersion. In Visual Novel Machinery there are two ways to rename a character. Option one is to use the [Character Rename Node]({{ site.baseurl }}{% link docs/nodes-reference/character-rename.md %}). This node can be used to set the character to a specific name. [Character Interactive Rename Node]({{ site.baseurl }}{% link docs/nodes-reference/character-interactive-rename.md %}) on the other hand allows the user to enter the new character name themselves.
