@@ -31,9 +31,7 @@ sidebar:
 | Character | The Id of the character to rename |
 | New character name | The new name of the character |
 
-<!---
 ## Script Reference
 ```
 character.rename <character id> <new character name>
 ```
--->

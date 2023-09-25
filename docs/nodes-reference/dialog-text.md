@@ -41,6 +41,7 @@ sidebar:
 | Transition Event | Transition Event | How should the character be shown |
 | Custom Transition Event Name | FString | The name of the animation to use if Transition Event is set to Custom |
 | Dont Wait For Transition To Finish | Boolean | If set to true then the dialog will automatically continue, while the character finishes its transition |
+| Layers | TArray\<FImageLayerInfo\> | Layers that should be automatically added to the character. |
 | Use Dialog Text Pin | Boolean | If set to true then instead of writing the text into the node directly, a pin will be exposed, which value will be used instead |
 | Use Voice Over | Boolean | Activates Voice Over System on Dialog Text Node |
 | Use Character Voice Over | Boolean | Uses voice overs for the character specified on the node |
