@@ -25,37 +25,37 @@ Changelog:
 		- These functions or events should not have any return value
 		- Input parameters can only be boolean/string/float
 		- Set the blueprint in VNM Yarn Settings to make sure it is found
-	- It does not support the \<\<jump \<node name\>\>\> command, if the node is not inside the same yarn file
+	- It does not support the \<\<jump \<node name\> \>\> command, if the node is not inside the same yarn file
 	- Special commands for your yarnspinner scripts that spawn the equivalent VNM node when importing the yarn script:
 		- Dialog Nodes:
 			- \<\<dialog window \<should hide (true/false)\> \<set to automatic (true/false)\> \[\<transition event\> \<DontWaitForTransitionToFinish (true/false)\> \<CustomTransitionName\>\] \>\>
 			- \<\<dialog widget show \<widget blueprint name (ex: W_TestWidget)\> \[\<Wait for widget to close again (true/false)\>\] \>\>
 			- \<\<dialog widget hide \<widget blueprint name (ex: W_TestWidget)\> \>\>
-			- \<\<dialog memory get \<dialog id\> \<memory id\> \<variable name to save the memory value to (\$\<variablename\>) \>\>\>
-			- \<\<dialog memory set \<dialog id\> \<memory id\> \<variable name to save the memory value to (\$\<variablename\>) \>\>\>
+			- \<\<dialog memory get \<dialog id\> \<memory id\> \<variable name to save the memory value to (\$\<variablename\>) \> \>\>
+			- \<\<dialog memory set \<dialog id\> \<memory id\> \<variable name to save the memory value to (\$\<variablename\>) \> \>\>
 		- Character Nodes:
 			- \<\<character show \<character id\> \<emotion id\> \[\<character positioning\> \<transition event\> \<DontWaitForTransitionToFinish (true/false)\> \<CustomTransitionName\>\] \>\>
 			- \<\<character hide \<character id\> \[\<transition event\> \<DontWaitForTransitionToFinish (true/false)\> \<CustomTransitionName\>\] \>\>
 			- \<\<character move \<character id\> \<character positioning\> \[\<MoveWithAnimation (true/false)\] \>\>
-			- \<\<character rename \<character id\> \<new character name\> \>\>\>
-			- \<\<character rename interactive \<character id\> \>\>\>
-			- \<\<character layer add \<character id\> \<layer id\> \<image id\> \>\>\>
-			- \<\<character layer remove \<character id\> \<layer id\> \>\>\>
-			- \<\<character memory get \<character id\> \<memory id\> \<variable name to save the memory value to (\$\<variablename\>) \>\>\>
-			- \<\<character memory set \<character id\> \<memory id\> \<variable name to save the memory value to (\$\<variablename\>) \>\>\>
+			- \<\<character rename \<character id\> \<new character name\> \> \>\>
+			- \<\<character rename interactive \<character id\> \> \>\>
+			- \<\<character layer add \<character id\> \<layer id\> \<image id\> \> \>\>
+			- \<\<character layer remove \<character id\> \<layer id\> \> \>\>
+			- \<\<character memory get \<character id\> \<memory id\> \<variable name to save the memory value to (\$\<variablename\>) \> \>\>
+			- \<\<character memory set \<character id\> \<memory id\> \<variable name to save the memory value to (\$\<variablename\>) \> \>\>
 		- Character 3D Nodes:
 			- \<\<character3D show \<character id\> \<emotion id\> \<dialog scene id\> \<spawn location\> \>\>
 			- \<\<character3D hide \<character id\> \>\>
 		- CG Nodes:
 			- \<\<cg show \<cg id\> \[\<transition event\> \<DontWaitForTransitionToFinish (true/false)\> \<CustomTransitionName\>\] \>\>
 			- \<\<cg hide \[\<transition event\> \<DontWaitForTransitionToFinish (true/false)\> \<CustomTransitionName\>\] \>\>
-			- \<\<cg layer add \<cg id\> \<layer id\> \<image id\> \>\>\>
-			- \<\<cg layer remove \<cg id\> \<layer id\> \>\>\>
+			- \<\<cg layer add \<cg id\> \<layer id\> \<image id\> \> \>\>
+			- \<\<cg layer remove \<cg id\> \<layer id\> \> \>\>
 		- Scene Background Nodes:
 			- \<\<scenebackground show \<scenebackground id\> \[\<transition event\> \<DontWaitForTransitionToFinish (true/false)\> \<CustomTransitionName\>\] \>\>
 			- \<\<scenebackground hide \[\<transition event\> \<DontWaitForTransitionToFinish (true/false)\> \<CustomTransitionName\>\] \>\>
-			- \<\<scenebackground layer add \<scenebackground id\> \<layer id\> \<image id\> \>\>\>
-			- \<\<scenebackground layer remove \<scenebackground id\> \<layer id\> \>\>\>
+			- \<\<scenebackground layer add \<scenebackground id\> \<layer id\> \<image id\> \> \>\>
+			- \<\<scenebackground layer remove \<scenebackground id\> \<layer id\> \> \>\>
 		- Dialog Scene Nodes:
 			- \<\<dialogscene show \<dialog scene id\> \<camera name\> \>\>
 			- \<\<dialogscene hide \>\>
