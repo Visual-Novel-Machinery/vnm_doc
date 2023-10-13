@@ -144,7 +144,7 @@ docs:
       - title: "Dialog Widget Show"
         url: /docs/nodes-references/dialog-widget-show
       - title: "Dialog Widget Hide"
-        url: /docs/nodes-references/dialog-widget-Hide
+        url: /docs/nodes-references/dialog-widget-hide
       - title: "Scene Background Add Layer"
         url: /docs/nodes-references/scene-background-add-layer
       - title: "Scene Background Hide"
