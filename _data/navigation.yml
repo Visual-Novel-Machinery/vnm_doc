@@ -69,6 +69,10 @@ docs:
         url: /docs/features/choice-graph
       - title: "Dialog Scenes Graph"
         url: /docs/features/scene-graph
+  - title: Integrations
+    children:
+      - title: "Yarn Spinner"
+        url: /docs/integrations/yarn-spinner
   - title: Node References
     children:
       - title: "CG Add Layer"
@@ -137,6 +141,10 @@ docs:
         url: /docs/nodes-references/dialog-text
       - title: "Dialog Window Control"
         url: /docs/nodes-references/dialog-window-control
+      - title: "Dialog Widget Show"
+        url: /docs/nodes-references/dialog-widget-show
+      - title: "Dialog Widget Hide"
+        url: /docs/nodes-references/dialog-widget-Hide
       - title: "Scene Background Add Layer"
         url: /docs/nodes-references/scene-background-add-layer
       - title: "Scene Background Hide"
