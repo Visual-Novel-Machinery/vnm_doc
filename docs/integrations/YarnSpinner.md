@@ -126,7 +126,7 @@ Cube: My custom function result is: {MyCustomFunction(true, 0.0, "test")}
 
 ## Important Notes
 
-You **cannot** jump to nodes outside of the currently important yarn file.
+You **cannot** jump to nodes outside of the currently imported yarn file.
 
 You **cannot** at the moment use the "visited" or "visited_count" function.
 
