@@ -73,6 +73,8 @@ docs:
     children:
       - title: "Yarn Spinner"
         url: /docs/integrations/yarn-spinner
+      - title: "Spine2D"
+        url: /docs/integrations/spine2d
   - title: Node References
     children:
       - title: "CG Add Layer"
