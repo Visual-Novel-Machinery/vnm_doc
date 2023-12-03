@@ -158,6 +158,9 @@ gallery:
     title: "Display all possible choices at runtime"
 ---
 
+# Trailer
+{% include video id="EcYzGUOPhmQ" provider="youtube" %}
+
 # Features
 {% include feature_row %}
 {% include feature_row id="feature_row2" %}
