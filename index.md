@@ -7,8 +7,8 @@ header:
   overlay_color: "#0D9839"
   overlay_image: /assets/images/mm-home-page-feature.jpg
   actions:
-    - label: "<i class='fas fa-shopping-cart'></i> Buy on Unreal Marketplace"
-      url: "https://www.unrealengine.com/marketplace/en-US/product/visual-novel-machinery"
+    - label: "<i class='fas fa-shopping-cart'></i> Buy on FAB Store"
+      url: "https://www.fab.com/listings/1ca39520-0f9a-4c1b-8619-bf52864e05fe"
     - label: "<i class='fas fa-shopping-cart'></i> Buy on Itch.io"
       url: "https://al-fe.itch.io/visual-novel-machinery"
     - label: "<i class='fas fa-users'></i> Support"
@@ -159,7 +159,7 @@ gallery:
 ---
 
 # Trailer
-{% include video id="EcYzGUOPhmQ" provider="youtube" %}
+{% include video id="z88AUGjxlLw" provider="youtube" %}
 
 # Features
 {% include feature_row %}

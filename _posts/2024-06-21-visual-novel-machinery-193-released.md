@@ -1,7 +1,7 @@
 ---
 layout: posts
-title:  "Visual Novel Machinery 1.9.2 Released"
-excerpt: Visual Novel Machinery 1.9.2 has been released
+title:  "Visual Novel Machinery 1.9.3 Released"
+excerpt: Visual Novel Machinery 1.9.3 has been released
 categories:
   - release
 tags:
@@ -9,4 +9,4 @@ tags:
 ---
 
 # Changelog:
-- Fixed crash when trying to use VNM as dialog add on. The Dialog Controller will now find the DialogRollback Controller earlier.
+- if savegame or persistant save game class are none in vnm settings, then they are now set to the default base classes (VNMBaseSaveGame and VNMBasePersistantSaveGame)
