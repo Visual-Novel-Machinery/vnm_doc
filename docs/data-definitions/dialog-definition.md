@@ -7,16 +7,31 @@ sidebar:
   nav: "docs"
 ---
 
-
-
-The class name for this definition is **DialogDefinition**. It is used with a Data Table.
+The class name for this definition is **FDialogDefinition**. It is used with a Data Table.
 
 ## Properties
 
 | Name | Type | Description |
 | --- | --- | --- |
-| Dialogue Id | FName | The internal ID identifying this dialog scene |
-| Dialog Title | FText | The friendly name of the dialog scene |
-| Dialogue Object Class | TSubclassOf\<UDialogObject\> | The actual Dialog Blueprint |
-| Dialogue Description | FText | Text to describe what is happening in the scene, or even your notes about this scene |
-| DialogMemoryDefinitions | TArray\<FMemoryDefinition\> | Array of Memories that are relevant to this dialog scene |
+| Dialogue Id | FName | The unique identifier for this dialog scene |
+| Dialog Title | FText | The user-friendly title of this dialog scene |
+| Dialogue Object Class | TSubclassOf\<UDialogObject\> | The dialog blueprint class that contains the dialog flow logic |
+| Dialogue Description | FText | Descriptive text about this dialog scene (for documentation/notes) |
+| Dialog Background Override | FImageDefinition | Custom dialog box background that overrides the default for this dialog |
+| Dialog Memory Definitions | TArray\<FMemoryDefinition\> | Array of memory variables specific to this dialog scene |
+| Voice Over Definitions | TMap\<FName, FVoiceOverDefinition\> | Map of voice over audio definitions for this dialog |
+
+## Related Structures
+
+### FImageDefinition
+- **Image**: The image asset (Texture2D or Material) to display
+- **Image Size**: The size of the image in pixels (zero vector uses original size)
+- **Color And Opacity**: The color tint and opacity applied to the image
+
+### FMemoryDefinition
+- **Memory Id**: The unique identifier for this memory variable
+- **Type**: The data type of the memory variable (Bool, Integer, Float, etc.)
+
+### FVoiceOverDefinition
+- **Dialog Audio Id**: The internal ID identifying the audio
+- **Audio Object**: The actual audio object

@@ -175,6 +175,8 @@ docs:
         url: /docs/data-definitions/cg-definition
       - title: "Character Definition"
         url: /docs/data-definitions/character-definition
+      - title: "Dialog Audio Definition"
+        url: /docs/data-definitions/dialog-audio-definition
       - title: "Dialog Definition"
         url: /docs/data-definitions/dialog-definition
       - title: "Dialog Scene Definition"
