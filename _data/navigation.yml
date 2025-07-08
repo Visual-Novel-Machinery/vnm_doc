@@ -85,6 +85,8 @@ docs:
         url: /docs/nodes-references/cg-remove-layer
       - title: "CG Show"
         url: /docs/nodes-references/cg-show
+      - title: "CG Play Animation"
+        url: /docs/nodes-references/cg-play-animation
       - title: "Character 3D Hide"
         url: /docs/nodes-references/character-3d-hide
       - title: "Character 3D Show"
@@ -99,6 +101,8 @@ docs:
         url: /docs/nodes-references/character-memory-set
       - title: "Character Move"
         url: /docs/nodes-references/character-move
+      - title: "Character Play Animation"
+        url: /docs/nodes-references/character-play-animation
       - title: "Character Remove Layer"
         url: /docs/nodes-references/character-remove-layer
       - title: "Character Show"
@@ -125,10 +129,14 @@ docs:
         url: /docs/nodes-references/dialog-choice
       - title: "Dialog End"
         url: /docs/nodes-references/dialog-end
+      - title: "Dialog Player Input"
+        url: /docs/nodes-references/dialog-input
       - title: "Dialog Memory Get"
         url: /docs/nodes-references/dialog-memory-get
       - title: "Dialog Memory Set"
         url: /docs/nodes-references/dialog-memory-set
+      - title: "Dialog Play Animation"
+        url: /docs/nodes-references/dialog-play-animation
       - title: "Dialog Scene Hide"
         url: /docs/nodes-references/dialog-scene-hide
       - title: "Dialog Scene Show"
@@ -151,6 +159,8 @@ docs:
         url: /docs/nodes-references/scene-background-add-layer
       - title: "Scene Background Hide"
         url: /docs/nodes-references/scene-background-hide
+      - title: "Scene Background Play Animation"
+        url: /docs/nodes-references/scene-background-play-animation
       - title: "Scene Background Remove Layer"
         url: /docs/nodes-references/scene-background-remove-layer
       - title: "Scene Background Show"
