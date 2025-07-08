@@ -18,7 +18,6 @@ The settings can be found under Project Settings -> Plugin -> VNM Editor Setting
 | Dialog Text Node Color | FLinearColor | Color of the Dialog Text Nodes in the Dialog Blueprint |
 | Dialog Choice Node Color | FLinearColor | Color of the Dialog Choice Nodes in the Dialog Blueprint |
 | Dialog End Node Color | FLinearColor | Color of the Dialog End Nodes in the Dialog Blueprint |
-| Dialog Start Sub Dialog Node Color | FLinearColor | Color of the Dialog Start Sub Dialog Nodes in the Dialog Blueprint |
 | Dialog Window Node Color | FLinearColor | Color of the Dialog Window Nodes in the Dialog Blueprint |
 | Character Nodes Color | FLinearColor | Color of the Character Nodes in the Dialog Blueprint |
 | Memory Nodes Color | FLinearColor | Color of the Memory Nodes in the Dialog Blueprint |

@@ -145,8 +145,6 @@ docs:
         url: /docs/nodes-references/dialog-scene-switch-camera
       - title: "Dialog Start"
         url: /docs/nodes-references/dialog-start
-      - title: "Dialog Start Subdialog"
-        url: /docs/nodes-references/dialog-start-sub-dialog
       - title: "Dialog Text"
         url: /docs/nodes-references/dialog-text
       - title: "Dialog Window Control"
