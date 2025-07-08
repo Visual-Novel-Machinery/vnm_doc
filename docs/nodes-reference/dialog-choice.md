@@ -25,6 +25,10 @@ sidebar:
 | --- | --- | --- |
 | Choice Option N (Name depends on properties specified below) | Execution | A potential choice |
 
+## On-Node Properties
+
+This node has no on-node properties.
+
 ## Additional Properties
 
 | Name | Type | Description |

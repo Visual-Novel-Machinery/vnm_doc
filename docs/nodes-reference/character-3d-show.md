@@ -33,6 +33,10 @@ sidebar:
 | Dialog Scene Id | The Id of the Dialog Scene in which the spawn location is |
 | Spawn Location Name | The name of the location where the character will be spawned at |
 
+## Additional Properties
+
+This node has no additional properties.
+
 ## Script Reference
 ```
 character3d.show -id=<character id> -emotion=<emotion id> -dialogscene=<dialog scene id> -spawnlocation=<spawn location id>

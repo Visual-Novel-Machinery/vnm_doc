@@ -30,6 +30,10 @@ sidebar:
 | --- | --- |
 | Character 3D | The Id of the character to hide |
 
+## Additional Properties
+
+This node has no additional properties.
+
 ## Script Reference
 ```
 character3d.show -id=<character id>

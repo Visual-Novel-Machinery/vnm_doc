@@ -24,6 +24,14 @@ sidebar:
 | --- | --- | --- |
 | Execution Line Out | Execution | Execution Line Output ||
 
+## On-Node Properties
+
+This node has no on-node properties.
+
+## Additional Properties
+
+This node has no additional properties.
+
 ## Script Reference
 ```
 dialogscene.hide

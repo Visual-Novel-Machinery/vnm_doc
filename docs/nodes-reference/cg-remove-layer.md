@@ -31,6 +31,10 @@ sidebar:
 | Cg | The Id of the CG to which to remove the layer from |
 | Layer | The Id of the layer that will be removed |
 
+## Additional Properties
+
+This node has no additional properties.
+
 ## Script Reference
 ```
 cg.removelayer -id=<cg id> -layer=<layer id>

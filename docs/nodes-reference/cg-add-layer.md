@@ -32,6 +32,10 @@ sidebar:
 | Layer | The Id of the layer that will be added/modified |
 | Image | The Id of the image that will be displayed in the layer |
 
+## Additional Properties
+
+This node has no additional properties.
+
 ## Script Reference
 ```
 cg.addlayer -id=<cg id> -layer=<layer id> -image=<image id>

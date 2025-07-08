@@ -32,6 +32,10 @@ sidebar:
 | dialog | The Id of the dialog from which to override the memory value |
 | Memory | The Id of the memory which value should be overriden |
 
+## Additional Properties
+
+This node has no additional properties.
+
 ## Script Reference
 ```
 dialog.memory.set <dialog id> <dialog memory id> <variable name>

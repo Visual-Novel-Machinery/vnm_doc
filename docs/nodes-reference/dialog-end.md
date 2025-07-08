@@ -30,6 +30,10 @@ sidebar:
 | --- | --- |
 | Next Dialog | The next dialog to start. If set to None, the game will return to the Main Menu level specified in the Project Settings |
 
+## Additional Properties
+
+This node has no additional properties.
+
 ## Script Reference
 ```
 dialog.end [-nextdialog=<next dialog id>]

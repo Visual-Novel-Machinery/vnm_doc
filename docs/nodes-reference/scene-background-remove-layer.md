@@ -31,6 +31,10 @@ sidebar:
 | Scene Background | The Id of the Scene Background to which to remove the layer from |
 | Layer | The Id of the layer that will be removed |
 
+## Additional Properties
+
+This node has no additional properties.
+
 ## Script Reference
 ```
 scenebackground.removelayer -id=<scene background id> -layer=<layer id>

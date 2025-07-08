@@ -30,6 +30,10 @@ sidebar:
 | --- | --- |
 | Activatable Widget Class | The class of the widget to show |
 
+## Additional Properties
+
+This node has no additional properties.
+
 ## Script Reference
 ```
 widget.hide <widget blueprint name (ex: W_TestWidget)>

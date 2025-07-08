@@ -31,6 +31,10 @@ sidebar:
 | Character | The Id of the character to rename |
 | New character name | The new name of the character |
 
+## Additional Properties
+
+This node has no additional properties.
+
 ## Script Reference
 ```
 character.rename <character id> <new character name>

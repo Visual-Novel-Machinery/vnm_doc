@@ -25,6 +25,10 @@ sidebar:
 | Dialog | The Id of the dialog from whom to get a memory value |
 | Memory | The Id of the memory which value should be used |
 
+## Additional Properties
+
+This node has no additional properties.
+
 ## Script Reference
 ```
 <variable name>=dialog.memory.get <dialog id> <dialog memory id>

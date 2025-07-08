@@ -25,6 +25,10 @@ sidebar:
 | Character | The Id of the character from whom to get the memory value |
 | Memory | The Id of the memory which value should be used |
 
+## Additional Properties
+
+This node has no additional properties.
+
 ## Script Reference
 ```
 <variable name>=character.memory.get <character id> <character memory id>

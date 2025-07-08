@@ -31,6 +31,10 @@ sidebar:
 | Dialog Scene Id | The Id of the Dialog Scene in which the camera is in |
 | Camera Name | The camera to switch to |
 
+## Additional Properties
+
+This node has no additional properties.
+
 ## Script Reference
 ```
 dialogscene.show -id=<scene background id> -camera=<camera name>

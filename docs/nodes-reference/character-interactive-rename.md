@@ -30,6 +30,10 @@ sidebar:
 | --- | --- |
 | Character | The Id of the character to rename |
 
+## Additional Properties
+
+This node has no additional properties.
+
 ## Script Reference
 ```
 character.rename.interactive <character id>
