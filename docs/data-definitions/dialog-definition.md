@@ -19,6 +19,7 @@ The class name for this definition is **FDialogDefinition**. It is used with a D
 | Dialogue Description | FText | Descriptive text about this dialog scene (for documentation/notes) |
 | Dialog Background Override | FImageDefinition | Custom dialog box background that overrides the default for this dialog |
 | Dialog Memory Definitions | TArray\<FMemoryDefinition\> | Array of memory variables specific to this dialog scene |
+| Dialog Persistant Memory Definitions | TArray\<FMemoryDefinition\> | Array of persistent memory variables specific to this dialog scene |
 | Voice Over Definitions | TMap\<FName, FVoiceOverDefinition\> | Map of voice over audio definitions for this dialog |
 
 ## Related Structures

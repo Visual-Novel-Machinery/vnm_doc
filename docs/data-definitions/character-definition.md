@@ -23,6 +23,7 @@ The class name for this definition is **FCharacterDefinition**. It is used with 
 | Character Mesh | USkeletalMesh* | 3D skeletal mesh for this character when displayed in 3D scenes |
 | Character Animation Per Emotion | TMap\<FName, UAnimationAsset*\> | Map of animations for different character emotions when using 3D mesh |
 | Character Memory Definitions | TArray\<FMemoryDefinition\> | Array of memory variables specific to this character |
+| Character Persistant Memory Definitions | TArray\<FMemoryDefinition\> | Array of persistent memory variables specific to this character |
 | Voice Over Definitions | TMap\<FName, FVoiceOverDefinition\> | Map of voice over audio definitions for this character |
 
 ## Related Structures

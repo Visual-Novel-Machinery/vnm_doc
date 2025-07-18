@@ -20,6 +20,13 @@ The settings can be found under Project Settings -> Plugin -> VNM Settings.
 | Dialog Audio Definitions Table | UDataTable* | Data table containing all audio definitions (BGM, SFX, voice over) |
 | Dialog Definitons Table | UDataTable* | Data table containing all dialog scene definitions |
 
+## Memories
+
+| Name | Type | Description |
+| --- | --- | --- |
+| Global Persistant Memory Definitions | TArray\<FMemoryDefinition\> | Array of memory variables that persist across game sessions |
+| Global Memory Definitions | TArray\<FMemoryDefinition\> | Array of memory variables that persist only during current game session |
+
 ## General
 
 | Name | Type | Description |

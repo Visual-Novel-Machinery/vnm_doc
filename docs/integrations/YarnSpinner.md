@@ -25,11 +25,15 @@ The following commands spawn the following Visual Novel Machinery Nodes:
 
 | Node | Command |
 | --- | --- |
-| [Dialog Window Node]({{ site.baseurl }}{% link docs/nodes-reference/dialog-window-control.md %}) | \<\<dialog window \<should hide (true/false)\> \<set to automatic (true/false)\> \[\<transition event\> \<DontWaitForTransitionToFinish (true/false)\> \<CustomTransitionName\>\] \>\> |
+| [Dialog Window Node]({{ site.baseurl }}{% link docs/nodes-reference/dialog-window-control.md %}) | \<\<dialog window \<automatic/manual\> \>\> |
+| [Dialog Window Show Node]({{ site.baseurl }}{% link docs/nodes-reference/dialog-window-show.md %}) | \<\<dialog window \[\<transition event\> \<DontWaitForTransitionToFinish (true/false)\> \<CustomTransitionName\>\] \>\> |
+| [Dialog Window Hide Node]({{ site.baseurl }}{% link docs/nodes-reference/dialog-window-hide.md %}) | \<\<dialog window \[\<transition event\> \<DontWaitForTransitionToFinish (true/false)\> \<CustomTransitionName\>\] \>\> |
 | [Dialog Widget Show Node]({{ site.baseurl }}{% link docs/nodes-reference/dialog-widget-show.md %}) | \<\<dialog widget show \<widget blueprint name (ex: W_TestWidget)\> \[\<Wait for widget to close again (true/false)\>\] \>\> |
 | [Dialog Widget Hide Node]({{ site.baseurl }}{% link docs/nodes-reference/dialog-widget-hide.md %}) | \<\<dialog widget hide \<widget blueprint name (ex: W_TestWidget)\> \>\> |
 | [Dialog Memory Get Node]({{ site.baseurl }}{% link docs/nodes-reference/dialog-memory-get.md %}) | \<\<dialog memory get \<dialog id\> \<memory id\> \<variable name to save the memory value to (\$\<variablename\>) \> \>\> |
 | [Dialog Memory Set Node]({{ site.baseurl }}{% link docs/nodes-reference/dialog-memory-set.md %}) | \<\<dialog memory set \<dialog id\> \<memory id\> \<variable name to save the memory value to (\$\<variablename\>) \> \>\> |
+| [Dialog Persistant Memory Get Node]({{ site.baseurl }}{% link docs/nodes-reference/dialog-persistant-memory-get.md %}) | \<\<dialog memory persistent get \<dialog id\> \<memory id\> \<memory type\> \>\> |
+| [Dialog Persistant Memory Set Node]({{ site.baseurl }}{% link docs/nodes-reference/dialog-persistant-memory-set.md %}) | \<\<dialog memory persistent set \<dialog id\> \<memory id\> \<variable name (\$\<variablename\>)\> \>\> |
 
 ### Character Nodes
 
@@ -44,6 +48,8 @@ The following commands spawn the following Visual Novel Machinery Nodes:
 | [Character Add Layer Node]({{ site.baseurl }}{% link docs/nodes-reference/character-remove-layer.md %}) | \<\<character layer remove \<character id\> \<layer id\> \> \>\> |
 | [Character Memory Get Node]({{ site.baseurl }}{% link docs/nodes-reference/character-memory-get.md %}) | \<\<character memory get \<character id\> \<memory id\> \<variable name to save the memory value to (\$\<variablename\>) \> \>\> |
 | [Character Memory Set Node]({{ site.baseurl }}{% link docs/nodes-reference/character-memory-set.md %}) | \<\<character memory set \<character id\> \<memory id\> \<variable name to save the memory value to (\$\<variablename\>) \> \>\> |
+| [Character Persistant Memory Get Node]({{ site.baseurl }}{% link docs/nodes-reference/character-persistant-memory-get.md %}) | \<\<character memory persistent get \<character id\> \<memory id\> \<memory type\> \>\> |
+| [Character Persistant Memory Set Node]({{ site.baseurl }}{% link docs/nodes-reference/character-persistant-memory-set.md %}) | \<\<character memory persistent set \<character id\> \<memory id\> \<variable name (\$\<variablename\>)\> \>\> |
 
 ### Character 3D Nodes
 

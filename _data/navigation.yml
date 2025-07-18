@@ -149,10 +149,22 @@ docs:
         url: /docs/nodes-references/dialog-text
       - title: "Dialog Window Control"
         url: /docs/nodes-references/dialog-window-control
-      - title: "Dialog Widget Show"
-        url: /docs/nodes-references/dialog-widget-show
+      - title: "Dialog Window Hide"
+        url: /docs/nodes-references/dialog-window-hide
+      - title: "Dialog Window Show"
+        url: /docs/nodes-references/dialog-window-show
       - title: "Dialog Widget Hide"
         url: /docs/nodes-references/dialog-widget-hide
+      - title: "Dialog Widget Show"
+        url: /docs/nodes-references/dialog-widget-show
+      - title: "Global Memory Get"
+        url: /docs/nodes-references/global-memory-get
+      - title: "Global Memory Set"
+        url: /docs/nodes-references/global-memory-set
+      - title: "Global Persistant Memory Get"
+        url: /docs/nodes-references/global-persistant-memory-get
+      - title: "Global Persistant Memory Set"
+        url: /docs/nodes-references/global-persistant-memory-set
       - title: "Scene Background Add Layer"
         url: /docs/nodes-references/scene-background-add-layer
       - title: "Scene Background Hide"
